@@ -2,6 +2,7 @@
  "main": [
   {
    "id": 0,
+   "name": "player",
    "player": true,
    "position": {
     "x": 100,
