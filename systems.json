@@ -25,6 +25,12 @@
    ]
   },
   {
+   "name": "splatjs:followParent",
+   "scenes": [
+    "main"
+   ]
+  },
+  {
    "name": "splatjs:boxCollider",
    "scenes": [
     "main"
