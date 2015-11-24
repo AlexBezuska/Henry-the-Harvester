@@ -5,20 +5,20 @@ var context = canvas.getContext("2d");
 
 var Splat = require("splat-ecs");
 
-var animations = require("./animations");
-var entities = require("./entities");
+var animations = require("./data/animations");
+var entities = require("./data/entities");
 
 var images = new Splat.ImageLoader();
-images.loadFromManifest(require("./images"));
+images.loadFromManifest(require("./data/images"));
 
-var input = require("./inputs");
+var input = require("./data/inputs");
 
-var scenes = require("./scenes");
+var scenes = require("./data/scenes");
 
 var sounds = new Splat.SoundLoader();
-sounds.loadFromManifest(require("./sounds"));
+sounds.loadFromManifest(require("./data/sounds"));
 
-var systems = require("./systems");
+var systems = require("./data/systems");
 
 var game = new Splat.Game(canvas, animations, entities, images, input, require, scenes, sounds, systems);
 

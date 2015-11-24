@@ -4,12 +4,12 @@ var fs = require("fs");
 var b = browserify();
 b.add("./game.js");
 
-var scripts = require("./scripts");
+var scripts = require("./data/scripts");
 scripts.forEach(function(script) {
 	b.require(script);
 });
 
-var systems = require("./systems");
+var systems = require("./data/systems");
 systems.simulation.forEach(function(system) {
 	if (system.name.indexOf("splatjs:") === 0) {
 		return;
