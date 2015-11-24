@@ -1,4 +1,4 @@
-# splat-ecs-starter-project
+![Splat ECS Starter Project](./src/images/logo.png)
 
 A sample starter game using [splat-ecs](https://github.com/SplatJS/splat-ecs)
 
