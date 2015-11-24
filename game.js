@@ -3,7 +3,7 @@
 var canvas = document.getElementById("canvas");
 var context = canvas.getContext("2d");
 
-var Splat = require("splatjs");
+var Splat = require("splat-ecs");
 
 var animations = require("./animations");
 var entities = require("./entities");
