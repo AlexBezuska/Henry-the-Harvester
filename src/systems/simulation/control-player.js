@@ -1,7 +1,7 @@
 "use strict";
 
 module.exports = function(ecs, data) {
-	ecs.addEach(function(entity, elapsed) { // jshint ignore:line
+	ecs.addEach(function(entity, elapsed) { // eslint-disable-line no-unused-vars
 		entity.velocity.x = 0;
 		entity.velocity.y = 0;
 		if (data.input.button("left")) {
