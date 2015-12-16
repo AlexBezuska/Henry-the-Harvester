@@ -2,19 +2,20 @@
 
 module.exports = function(ecs, data) {
 	ecs.addEach(function(entity, elapsed) { // eslint-disable-line no-unused-vars
-		entity.velocity.x = 0;
-		entity.velocity.y = 0;
+		var velocity = data.entities.get(entity, "velocity");
+		velocity.x = 0;
+		velocity.y = 0;
 		if (data.input.button("left")) {
-			entity.velocity.x = -0.5;
+			velocity.x = -0.5;
 		}
 		if (data.input.button("right")) {
-			entity.velocity.x = 0.5;
+			velocity.x = 0.5;
 		}
 		if (data.input.button("up")) {
-			entity.velocity.y = -0.5;
+			velocity.y = -0.5;
 		}
 		if (data.input.button("down")) {
-			entity.velocity.y = 0.5;
+			velocity.y = 0.5;
 		}
-	}, ["player"]);
+	}, "player");
 };
