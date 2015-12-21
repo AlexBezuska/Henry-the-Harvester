@@ -1,5 +1,5 @@
 {
-  "name": "splat-ecs-starter-project",
+  "name": "tutorial-splat-ecs",
   "version": "0.0.0",
   "description": "A Sample game",
   "private": true,
@@ -14,7 +14,7 @@
     "url": "https://github.com/SplatJS/splat-ecs-starter-project.git"
   },
   "keywords": [],
-  "author": "Eric Lathrop <eric@ericlathrop.com> (http://ericlathrop.com/)",
+  "author": "Alex Bezuska <alex@twoscoopgames.com> (http://twoscoopgames.com/)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/SplatJS/splat-ecs-starter-project/issues"
@@ -28,6 +28,6 @@
     "rimraf": "^2.4.4"
   },
   "dependencies": {
-    "splat-ecs": "0.4.1"
+    "splat-ecs": "0.5"
   }
 }

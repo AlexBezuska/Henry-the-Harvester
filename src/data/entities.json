@@ -1,21 +1,43 @@
 {
- "main": [
-  {
-   "id": 0,
-   "name": "player",
-   "player": true,
-   "position": {
-    "x": 100,
-    "y": 100
-   },
-   "size": {
-    "width": 100,
-    "height": 100
-   },
-   "velocity": {
-    "x": 0,
-    "y": 0
-   }
-  }
- ]
+	"main": [
+		{
+			"id": 0,
+			"name": "player",
+			"color": "green",
+			"player": true,
+			"position": {
+				"x": 100,
+				"y": 100
+			},
+			"facing": "down",
+			"size": {
+				"width": 100,
+				"height": 100
+			},
+			"velocity": {
+				"x": 0,
+				"y": 0
+			}
+		},
+		{
+			"id": 1,
+			"name": "sword",
+			"sword": true,
+			"color": "blue",
+			"position": {
+				"x": 0,
+				"y": 0
+			},
+			"size": {
+				"width": 50,
+				"height": 100
+			},
+			"match": {
+				"id": 0,
+				"offsetX": 0,
+				"offsetY": 100
+			}
+
+		}
+	]
 }

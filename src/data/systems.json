@@ -19,7 +19,19 @@
    ]
   },
   {
+   "name": "./systems/simulation/position-sword",
+   "scenes": [
+    "main"
+   ]
+  },
+  {
    "name": "splatjs:applyVelocity",
+   "scenes": [
+    "main"
+   ]
+  },
+  {
+   "name": "splatjs:matchParent",
    "scenes": [
     "main"
    ]
@@ -51,7 +63,7 @@
    ]
   },
   {
-   "name": "./systems/renderer/render-player",
+   "name": "./systems/renderer/render-rectangles",
    "scenes": [
     "main"
    ]
