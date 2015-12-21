@@ -1,4 +1,13 @@
 {
+"action": {
+ "type": "button",
+ "inputs": [
+  {
+   "device": "keyboard",
+   "key": "space"
+  }
+ ]
+},
  "up": {
   "type": "button",
   "inputs": [

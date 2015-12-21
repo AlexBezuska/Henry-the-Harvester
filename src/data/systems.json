@@ -25,6 +25,12 @@
    ]
   },
   {
+   "name": "./systems/simulation/use-sword",
+   "scenes": [
+    "main"
+   ]
+  },
+  {
    "name": "splatjs:applyVelocity",
    "scenes": [
     "main"
