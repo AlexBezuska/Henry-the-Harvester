@@ -6,8 +6,8 @@
 			"color": "green",
 			"player": true,
 			"position": {
-				"x": 100,
-				"y": 100
+				"x": 800,
+				"y": 200
 			},
 			"facing": "down",
 			"size": {
@@ -40,4 +40,5 @@
 
 		}
 	]
+
 }

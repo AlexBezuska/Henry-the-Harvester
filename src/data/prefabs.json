@@ -1,0 +1,31 @@
+{
+	"grass":{
+		"position": {
+			"x": 50,
+			"y": 50,
+		},
+		"size": {
+			"width": 128,
+			"height": 128
+		},
+		"collisions":[],
+		"animation": {
+			"time": 0,
+			"frame": 0,
+			"loop": false,
+			"speed": 1,
+			"name": "grass-tile"
+		},
+		"image": {
+			"name": "grass-tile",
+			"sourceX": 0,
+			"sourceY": 0,
+			"sourceWidth": 128,
+			"sourceHeight": 128,
+			"destinationX": 0,
+			"destinationY": 0,
+			"destinationWidth": 128,
+			"destinationHeight": 128
+		}
+	}
+}

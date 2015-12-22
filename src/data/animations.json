@@ -1,2 +1,16 @@
 {
+	"grass-tile": [
+		{
+			"time": 100,
+			"properties": {
+				"image": {
+					"name": "grass-tile",
+					"sourceX": 0,
+					"sourceY": 0,
+					"sourceWidth": 128,
+					"sourceHeight": 128
+				}
+			}
+		}
+	]
 }
