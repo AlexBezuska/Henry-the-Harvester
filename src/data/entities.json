@@ -13,8 +13,8 @@
 			},
 			"facing": "down",
 			"size": {
-				"width": 128,
-				"height": 256
+				"width": 239,
+				"height": 50
 			},
 			"velocity": {
 				"x": 0,
@@ -31,12 +31,12 @@
 			"image": {
 				"sourceX": 0,
 				"sourceY": 0,
-				"sourceWidth": 128,
-				"sourceHeight": 256,
+				"sourceWidth": 239,
+				"sourceHeight": 254,
 				"destinationX": 0,
-				"destinationY": 0,
-				"destinationWidth": 128,
-				"destinationHeight": 256
+				"destinationY": -204,
+				"destinationWidth": 239,
+				"destinationHeight": 254
 			}
 		},
 		{

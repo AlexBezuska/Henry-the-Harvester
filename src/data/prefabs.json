@@ -6,7 +6,7 @@
 		},
 		"size": {
 			"width": 128,
-			"height": 128
+			"height": 57
 		},
 		"collisions":[],
 		"animation": {
@@ -23,7 +23,7 @@
 			"sourceWidth": 128,
 			"sourceHeight": 128,
 			"destinationX": 0,
-			"destinationY": 0,
+			"destinationY": -71,
 			"destinationWidth": 128,
 			"destinationHeight": 128
 		}
