@@ -1,3 +1,9 @@
 {
-	"grass-tile": "images/grass-tile.png"
+ "grass-tile": "images/grass-tile.png",
+ "grass": "images/grass.png",
+ "logo": "images/logo.png",
+ "player-down": "images/player-down.png",
+ "player-left": "images/player-left.png",
+ "player-right": "images/player-right.png",
+ "player-up": "images/player-up.png"
 }

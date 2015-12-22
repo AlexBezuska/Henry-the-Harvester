@@ -28,6 +28,6 @@
     "rimraf": "^2.4.4"
   },
   "dependencies": {
-    "splat-ecs": "0.5"
+    "splat-ecs": "0.6.2"
   }
 }

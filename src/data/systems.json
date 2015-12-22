@@ -1,96 +1,103 @@
 {
- "simulation": [
-  {
-   "name": "splatjs:advanceTimers",
-   "scenes": [
-    "main"
-   ]
-  },
-  {
-   "name": "splatjs:advanceAnimations",
-   "scenes": [
-    "main"
-   ]
-  },
-  {
-   "name": "./systems/simulation/control-player",
-   "scenes": [
-    "main"
-   ]
-  },
-  {
-   "name": "./systems/simulation/position-sword",
-   "scenes": [
-    "main"
-   ]
-  },
-  {
-   "name": "./systems/simulation/use-sword",
-   "scenes": [
-    "main"
-   ]
-  },
-  {
-   "name": "splatjs:applyVelocity",
-   "scenes": [
-    "main"
-   ]
-  },
-  {
-   "name": "splatjs:matchParent",
-   "scenes": [
-    "main"
-   ]
-  },
-  {
-   "name": "splatjs:followParent",
-   "scenes": [
-    "main"
-   ]
-  },
-  {
-   "name": "splatjs:boxCollider",
-   "scenes": [
-    "main"
-   ]
-  }
- ],
- "renderer": [
-  {
-   "name": "splatjs:clearScreen",
-   "scenes": [
-    "main"
-   ]
-  },
-  {
-   "name": "splatjs:viewport.moveToCamera",
-   "scenes": [
-    "main"
-   ]
-  },
-  {
-   "name": "./systems/renderer/render-rectangles",
-   "scenes": [
-    "main"
-   ]
-  },
-  {
-   "name": "splatjs:drawRectangles",
-   "scenes": [
-    "main"
-   ]
-  },
-  {
-   "name": "splatjs:drawImage",
-   "scenes": [
-    "main"
-   ]
-  },
-  {
-   "name": "splatjs:viewport.reset",
-   "scenes": [
-    "main"
-   ]
-  }
- ]
+	"simulation": [
+		{
+			"name": "splatjs:advanceTimers",
+			"scenes": [
+				"main"
+			]
+		},
+		{
+			"name": "splatjs:advanceAnimations",
+			"scenes": [
+				"main"
+			]
+		},
+		{
+			"name": "./systems/simulation/control-player",
+			"scenes": [
+				"main"
+			]
+		},
+		{
+			"name": "./systems/simulation/position-sword",
+			"scenes": [
+				"main"
+			]
+		},
+		{
+			"name": "./systems/simulation/player-animations",
+			"scenes": [
+				"main"
+			]
+		},
+		{
+			"name": "./systems/simulation/use-sword",
+			"scenes": [
+				"main"
+			]
+		},
+		{
+			"name": "splatjs:applyVelocity",
+			"scenes": [
+				"main"
+			]
+		},
+		{
+			"name": "splatjs:matchParent",
+			"scenes": [
+				"main"
+			]
+		},
+		{
+			"name": "splatjs:followParent",
+			"scenes": [
+				"main"
+			]
+		},
+		{
+			"name": "splatjs:boxCollider",
+			"scenes": [
+				"main"
+			]
+		}
+	],
+	"renderer": [
+		{
+			"name": "splatjs:clearScreen",
+			"scenes": [
+				"main"
+			]
+		},
+		{
+			"name": "splatjs:viewport.moveToCamera",
+			"scenes": [
+				"main"
+			]
+		},
+		{
+			"name": "splatjs:drawImage",
+			"scenes": [
+				"main"
+			]
+		},
+		{
+			"name": "./systems/renderer/render-rectangles",
+			"scenes": [
+				"main"
+			]
+		},
+
+		{
+			"name": "splatjs:drawRectangles",
+			"scenes": [
+				"main"
+			]
+		},
+		{
+			"name": "splatjs:viewport.reset",
+			"scenes": [
+				"main"
+			]
+		}
+	]
 }

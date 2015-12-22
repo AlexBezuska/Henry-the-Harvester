@@ -2,21 +2,41 @@
 	"main": [
 		{
 			"id": 0,
+			"zindex":{
+				"zindex": 1
+			},
 			"name": "player",
-			"color": "green",
 			"player": true,
 			"position": {
-				"x": 800,
-				"y": 200
+				"x": 300,
+				"y": 300
 			},
 			"facing": "down",
 			"size": {
-				"width": 100,
-				"height": 100
+				"width": 128,
+				"height": 256
 			},
 			"velocity": {
 				"x": 0,
 				"y": 0
+			},
+			"collisions":[],
+			"animation": {
+				"time": 0,
+				"frame": 0,
+				"loop": false,
+				"speed": 1,
+				"name": "player-down"
+			},
+			"image": {
+				"sourceX": 0,
+				"sourceY": 0,
+				"sourceWidth": 128,
+				"sourceHeight": 256,
+				"destinationX": 0,
+				"destinationY": 0,
+				"destinationWidth": 128,
+				"destinationHeight": 256
 			}
 		},
 		{

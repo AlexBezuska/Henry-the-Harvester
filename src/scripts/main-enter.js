@@ -22,16 +22,20 @@ function makePrefab(name, entities) {
 	return id;
 }
 
-function spawnRandomly(entities, quantity, prefab, position, size) {
-	for(var i =0; i < quantity; i++){
-		var entity = makePrefab(prefab, entities);
-		var newX = randomRange(position.x, size.width + position.x);
-		var newY = randomRange(position.y, size.height + position.y);
-		entities.set(entity, "position", {"x": newX,  "y": newY });
-	}
+function spawnRandomly(entities, prefab, position, size) {
+	var entity = makePrefab(prefab, entities);
+	var entitySize = entities.get(entity, "size");
+	var tilesWide = Math.floor(size.width / entitySize.width) + 1;
+	var tilesTall = Math.floor(size.height / entitySize.height) + 1;
+	var newX = randomRange(0, tilesWide);
+	var newY = randomRange(0, tilesTall);
+	entities.set(entity, "position", {"x": position.x + (newX * entitySize.width),  "y": position.y + (newY * entitySize.height) });
 }
 
-module.exports = function(data) { // eslint-disable-line no-unused-vars
-	spawnRandomly(data.entities, 20, "grass", {"x":0, "y":0}, data.canvas);
 
+module.exports = function(data) { // eslint-disable-line no-unused-vars
+
+	for(var i =0; i < 20; i++){
+		spawnRandomly(data.entities, "grass", {"x":0, "y":0}, data.canvas);
+	}
 };

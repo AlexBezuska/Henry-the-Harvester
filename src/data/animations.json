@@ -1,16 +1,100 @@
 {
-	"grass-tile": [
-		{
-			"time": 100,
-			"properties": {
-				"image": {
-					"name": "grass-tile",
-					"sourceX": 0,
-					"sourceY": 0,
-					"sourceWidth": 128,
-					"sourceHeight": 128
-				}
-			}
-		}
-	]
+ "grass-tile": [
+  {
+   "time": 100,
+   "properties": {
+    "image": {
+     "name": "grass-tile",
+     "sourceX": 0,
+     "sourceY": 0,
+     "sourceWidth": 128,
+     "sourceHeight": 128
+    }
+   }
+  }
+ ],
+ "grass": [
+  {
+   "time": 100,
+   "properties": {
+    "image": {
+     "name": "grass",
+     "sourceX": 0,
+     "sourceY": 0,
+     "sourceWidth": 128,
+     "sourceHeight": 128
+    }
+   }
+  }
+ ],
+ "logo": [
+  {
+   "time": 100,
+   "properties": {
+    "image": {
+     "name": "logo",
+     "sourceX": 0,
+     "sourceY": 0,
+     "sourceWidth": 674,
+     "sourceHeight": 250
+    }
+   }
+  }
+ ],
+ "player-down": [
+  {
+   "time": 100,
+   "properties": {
+    "image": {
+     "name": "player-down",
+     "sourceX": 0,
+     "sourceY": 0,
+     "sourceWidth": 128,
+     "sourceHeight": 256
+    }
+   }
+  }
+ ],
+ "player-left": [
+  {
+   "time": 100,
+   "properties": {
+    "image": {
+     "name": "player-left",
+     "sourceX": 0,
+     "sourceY": 0,
+     "sourceWidth": 128,
+     "sourceHeight": 256
+    }
+   }
+  }
+ ],
+ "player-right": [
+  {
+   "time": 100,
+   "properties": {
+    "image": {
+     "name": "player-right",
+     "sourceX": 0,
+     "sourceY": 0,
+     "sourceWidth": 128,
+     "sourceHeight": 256
+    }
+   }
+  }
+ ],
+ "player-up": [
+  {
+   "time": 100,
+   "properties": {
+    "image": {
+     "name": "player-up",
+     "sourceX": 0,
+     "sourceY": 0,
+     "sourceWidth": 128,
+     "sourceHeight": 256
+    }
+   }
+  }
+ ]
 }
