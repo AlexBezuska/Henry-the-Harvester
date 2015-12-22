@@ -69,6 +69,12 @@
 			]
 		},
 		{
+			"name": "./systems/renderer/draw-background",
+			"scenes": [
+				"main"
+			]
+		},
+		{
 			"name": "splatjs:viewport.moveToCamera",
 			"scenes": [
 				"main"
