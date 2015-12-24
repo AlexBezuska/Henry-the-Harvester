@@ -5,27 +5,27 @@
 			"y": 50,
 		},
 		"size": {
-			"width": 128,
-			"height": 57
+			"width": 70,
+			"height": 30
 		},
 		"collisions":[],
 		"animation": {
 			"time": 0,
 			"frame": 0,
-			"loop": false,
+			"loop": true,
 			"speed": 1,
-			"name": "grass-tile"
+			"name": "bellflower-1"
 		},
 		"image": {
-			"name": "grass-tile",
+			"name": "bellflower-1",
 			"sourceX": 0,
 			"sourceY": 0,
-			"sourceWidth": 128,
-			"sourceHeight": 128,
+			"sourceWidth": 70,
+			"sourceHeight": 95,
 			"destinationX": 0,
-			"destinationY": -71,
-			"destinationWidth": 128,
-			"destinationHeight": 128
+			"destinationY": -65,
+			"destinationWidth": 70,
+			"destinationHeight": 95
 		}
 	}
 }

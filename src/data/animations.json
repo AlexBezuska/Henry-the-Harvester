@@ -1,100 +1,130 @@
 {
- "grass-tile": [
-  {
-   "time": 100,
-   "properties": {
-    "image": {
-     "name": "grass-tile",
-     "sourceX": 0,
-     "sourceY": 0,
-     "sourceWidth": 128,
-     "sourceHeight": 128
-    }
-   }
-  }
- ],
- "grass": [
-  {
-   "time": 100,
-   "properties": {
-    "image": {
-     "name": "grass",
-     "sourceX": 0,
-     "sourceY": 0,
-     "sourceWidth": 128,
-     "sourceHeight": 128
-    }
-   }
-  }
- ],
- "logo": [
-  {
-   "time": 100,
-   "properties": {
-    "image": {
-     "name": "logo",
-     "sourceX": 0,
-     "sourceY": 0,
-     "sourceWidth": 674,
-     "sourceHeight": 250
-    }
-   }
-  }
- ],
- "player-down": [
-  {
-   "time": 100,
-   "properties": {
-    "image": {
-     "name": "player-down",
-     "sourceX": 0,
-     "sourceY": 0,
-     "sourceWidth": 239,
-     "sourceHeight": 254
-    }
-   }
-  }
- ],
- "player-left": [
-  {
-   "time": 100,
-   "properties": {
-    "image": {
-     "name": "player-left",
-     "sourceX": 0,
-     "sourceY": 0,
-     "sourceWidth": 183,
-     "sourceHeight": 254
-    }
-   }
-  }
- ],
- "player-right": [
-  {
-   "time": 100,
-   "properties": {
-    "image": {
-     "name": "player-right",
-     "sourceX": 0,
-     "sourceY": 0,
-     "sourceWidth": 183,
-     "sourceHeight": 254
-    }
-   }
-  }
- ],
- "player-up": [
-  {
-   "time": 100,
-   "properties": {
-    "image": {
-     "name": "player-up",
-     "sourceX": 0,
-     "sourceY": 0,
-     "sourceWidth": 239,
-     "sourceHeight": 254
-    }
-   }
-  }
- ]
+	"bellflower-1": [{
+		"filmstripFrames": 6,
+		"time": 500,
+		"properties": {
+			"image": {
+				"name": "bellflower-1",
+				"sourceX": 0,
+				"sourceY": 0,
+				"sourceWidth": 420,
+				"sourceHeight": 95
+			}
+		}
+	}],
+	"bellflower-2": [{
+		"filmstripFrames": 6,
+		"time": 500,
+		"properties": {
+			"image": {
+				"name": "bellflower-2",
+				"sourceX": 0,
+				"sourceY": 0,
+				"sourceWidth": 420,
+				"sourceHeight": 98
+			}
+		}
+	}],
+	"bellflower-3": [{
+		"filmstripFrames": 6,
+		"time": 500,
+		"properties": {
+			"image": {
+				"name": "bellflower-3",
+				"sourceX": 0,
+				"sourceY": 0,
+				"sourceWidth": 420,
+				"sourceHeight": 109
+			}
+		}
+	}],
+	"grass": [{
+		"time": 100,
+		"properties": {
+			"image": {
+				"name": "grass",
+				"sourceX": 0,
+				"sourceY": 0,
+				"sourceWidth": 128,
+				"sourceHeight": 128
+			}
+		}
+	}],
+	"logo": [{
+		"time": 100,
+		"properties": {
+			"image": {
+				"name": "logo",
+				"sourceX": 0,
+				"sourceY": 0,
+				"sourceWidth": 674,
+				"sourceHeight": 250
+			}
+		}
+	}],
+	"player-down": [{
+		"filmstripFrames": 19,
+		"time": 100,
+		"properties": {
+			"image": {
+				"name": "player-down",
+				"sourceX": 0,
+				"sourceY": 0,
+				"sourceWidth": 4541,
+				"sourceHeight": 259
+			}
+		}
+	}],
+	"player-slap-down": [{
+		"filmstripFrames": 12,
+		"time": 100,
+		"properties": {
+			"image": {
+				"name": "player-slap-down",
+				"sourceX": 0,
+				"sourceY": 0,
+				"sourceWidth": 4728,
+				"sourceHeight": 258
+			}
+		}
+	}],
+	"player-left": [{
+		"filmstripFrames": 19,
+		"time": 100,
+		"properties": {
+			"image": {
+				"name": "player-left",
+				"sourceX": 0,
+				"sourceY": 0,
+				"sourceWidth": 3876,
+				"sourceHeight": 258
+			}
+		}
+	}],
+	"player-right": [{
+		"filmstripFrames": 19,
+		"time": 100,
+		"properties": {
+			"image": {
+				"name": "player-right",
+				"sourceX": 0,
+				"sourceY": 0,
+				"sourceWidth": 3876,
+				"sourceHeight": 258
+			}
+		}
+	}],
+	"player-up": [{
+		"filmstripFrames": 19,
+		"time": 100,
+		"properties": {
+			"image": {
+				"name": "player-up",
+				"sourceX": 0,
+				"sourceY": 0,
+				"sourceWidth": 4560,
+				"sourceHeight": 258
+			}
+		}
+	}]
 }

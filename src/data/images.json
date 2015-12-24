@@ -1,8 +1,11 @@
 {
- "grass-tile": "images/grass-tile.png",
+ "bellflower-1": "images/bellflower-1.png",
+ "bellflower-2": "images/bellflower-2.png",
+ "bellflower-3": "images/bellflower-3.png",
  "grass": "images/grass.png",
  "logo": "images/logo.png",
  "player-down": "images/player-down.png",
+ "player-slap-down": "images/player-slap-down.png",
  "player-left": "images/player-left.png",
  "player-right": "images/player-right.png",
  "player-up": "images/player-up.png"
