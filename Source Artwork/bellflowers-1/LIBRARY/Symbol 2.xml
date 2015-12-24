@@ -1,0 +1,33 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Symbol 2" itemID="567b070b-000000ff" lastModified="1450903307">
+  <timeline>
+    <DOMTimeline name="Symbol 2">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape selected="true" isDrawingObject="true">
+                  <matrix>
+                    <Matrix tx="26.95" ty="-0.3"/>
+                  </matrix>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#ACB456"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!-341 547[-248 1005 -75 1499!-75 1499[11 1747 79 1902!79 1902|-66 1947!-66 1947[-141 1801 -232 1558!-232 1558[-413 1073 -487 592!-487 592[-575 19 -513 6!-513 6[-452 -6 -341 547"/>
+                    <Edge cubics="!79 1902(;79,1902 -66,1947 -66,1947p79 1902q-66 1947);"/>
+                    <Edge cubics="!-66 1947(;-66,1947 -368,1362 -487,592q-66 1947Q-141 1801q-232 1558Q-413 1073q-487 592);"/>
+                    <Edge cubics="!-487 592(;-605,-177 -488,-186 -341,547q-487 592Q-575 19q-513 6Q-452 -6q-341 547);"/>
+                    <Edge cubics="!-341 547(;-193,1280 79,1902 79,1902q-341 547Q-248 1005q-75 1499Q11 1747q79 1902);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

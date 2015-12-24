@@ -1,0 +1,72 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Symbol 1" itemID="567affec-000000b3" lastModified="1450901484">
+  <timeline>
+    <DOMTimeline name="Symbol 1">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape selected="true" isDrawingObject="true">
+                  <matrix>
+                    <Matrix tx="-358.7" ty="-383.95"/>
+                  </matrix>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#E38AA2"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!9634 8419[9634 8668 9352 8844!9352 8844[9070 9019 8672 9019!8672 9019[8274 9019 7992 8844!7992 8844[7711 8668 7711 8419!7711 8419[7711 8171 7992 7995!7992 7995[8274 7820 8672 7820!8672 7820[9070 7820 9352 7995!9352 7995[9634 8171 9634
+ 8419"/>
+                    <Edge cubics="!9634 8419(;9634,8751 9203,9019 8672,9019q9634 8419Q9634 8668q9352 8844Q9070 9019q8672 9019);"/>
+                    <Edge cubics="!8672 9019(;8141,9019 7711,8751 7711,8419q8672 9019Q8274 9019q7992 8844Q7711 8668q7711 8419);"/>
+                    <Edge cubics="!7711 8419(;7711,8088 8141,7820 8672,7820q7711 8419Q7711 8171q7992 7995Q8274 7820q8672 7820);"/>
+                    <Edge cubics="!8672 7820(;9203,7820 9634,8088 9634,8419q8672 7820Q9070 7820q9352 7995Q9634 8171q9634 8419);"/>
+                  </edges>
+                </DOMShape>
+                <DOMShape selected="true" isDrawingObject="true">
+                  <matrix>
+                    <Matrix tx="-358.7" ty="-383.95"/>
+                  </matrix>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#E38AA2"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="
+!7896 7679[8056 7679 8169 7788!8169 7788[8282 7896 8282 8049!8282 8049[8282 8203 8169 8311!8169 8311[8056 8419 7896 8419!7896 8419[7736 8419 7623 8311!7623 8311[7510 8203 7510 8049!7510 8049[7510 7896 7623 7788!7623 7788[7736 7679 7896
+ 7679"/>
+                    <Edge cubics="!8282 8049(;8282,8254 8109,8419 7896,8419q8282 8049Q8282 8203q8169 8311Q8056 8419q7896 8419);"/>
+                    <Edge cubics="!7896 8419(;7683,8419 7510,8254 7510,8049q7896 8419Q7736 8419q7623 8311Q7510 8203q7510 8049);"/>
+                    <Edge cubics="!7510 8049(;7510,7845 7683,7679 7896,7679q7510 8049Q7510 7896q7623 7788Q7736 7679q7896 7679);"/>
+                    <Edge cubics="!7896 7679(;8109,7679 8282,7845 8282,8049q7896 7679Q8056 7679q8169 7788Q8282 7896q8282 8049);"/>
+                  </edges>
+                </DOMShape>
+                <DOMShape selected="true" isDrawingObject="true">
+                  <matrix>
+                    <Matrix tx="-358.7" ty="-383.95"/>
+                  </matrix>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#E38AA2"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="
+!7975 8175[8112 8300 8112 8478!8112 8478[8112 8656 7975 8781!7975 8781[7837 8907 7643 8907!7643 8907[7449 8907 7311 8781!7311 8781[7174 8656 7174 8478!7174 8478[7174 8300 7311 8175!7311 8175[7449 8049 7643 8049!7643 8049[7837 8049 7975
+ 8175"/>
+                    <Edge cubics="!8112 8478(;8112,8715 7902,8907 7643,8907q8112 8478Q8112 8656q7975 8781Q7837 8907q7643 8907);"/>
+                    <Edge cubics="!7643 8907(;7384,8907 7174,8715 7174,8478q7643 8907Q7449 8907q7311 8781Q7174 8656q7174 8478);"/>
+                    <Edge cubics="!7174 8478(;7174,8241 7384,8049 7643,8049q7174 8478Q7174 8300q7311 8175Q7449 8049q7643 8049);"/>
+                    <Edge cubics="!7643 8049(;7902,8049 8112,8241 8112,8478q7643 8049Q7837 8049q7975 8175Q8112 8300q8112 8478);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

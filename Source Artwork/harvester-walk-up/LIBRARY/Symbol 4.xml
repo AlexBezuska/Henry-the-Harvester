@@ -1,0 +1,34 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Symbol 4" itemID="567afc54-00000087" lastModified="1450900564">
+  <timeline>
+    <DOMTimeline name="Symbol 4">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape selected="true" isDrawingObject="true">
+                  <matrix>
+                    <Matrix tx="-740.65" ty="-257.55"/>
+                  </matrix>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#E38AA2"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!15585 6167[15900 5711 16237 5438!16237 5438[16589 5151 16862 5151!16862 5151[17120 5151 17153 5427!17153 5427[17178 5640 17065 6132!17065 6132[17000 6419 16838 7084!16838 7084[16709 7683 16709 8099!16709 8099[16709 9232 16508 9904!16508
+ 9904[16263 10724 15747 10724!15747 10724[15374 10724 15276 10701!15276 10701[15072 10652 14973 10448!14973 10448[14862 10218 14829 9695!14829 9695[14796 9164 14832 8167!14832 8167[14849 7694 15065 7142!15065 7142[15264 6631 15585 6167"/>
+                    <Edge cubics="!16709 8099(;16709,9413 16494,10724 15747,10724q16709 8099Q16709 9232q16508 9904Q16263 10724q15747 10724);"/>
+                    <Edge cubics="!15747 10724(;15001,10724 14735,10841 14832,8167q15747 10724Q15374 10724q15276 10701Q15072 10652q14973 10448Q14862 10218q14829 9695Q14796 9164q14832 8167);"/>
+                    <Edge cubics="!14832 8167(;14880,6854 16116,5151 16862,5151q14832 8167Q14849 7694q15065 7142Q15264 6631q15585 6167Q15900 5711q16237 5438Q16589 5151q16862 5151);"/>
+                    <Edge cubics="!16862 5151(;17608,5151 16709,6785 16709,8099q16862 5151Q17120 5151q17153 5427Q17178 5640q17065 6132Q17000 6419q16838 7084Q16709 7683q16709 8099);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

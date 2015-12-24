@@ -1,0 +1,33 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Symbol 4" itemID="567b0712-00000105" lastModified="1450903314">
+  <timeline>
+    <DOMTimeline name="Symbol 4">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape selected="true" isDrawingObject="true">
+                  <matrix>
+                    <Matrix tx="27.3" ty="-40.35"/>
+                  </matrix>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#9EA64F"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle0="1" edges="!186 1393[112 1169 -125 972!-125 972[-351 783 -477 811!-477 811[-580 833 -529 1060!-529 1060[-515 1128 -387 1518!-387 1518[-310 1752 -172 1899!-172 1899[-34 2046 84 2020!84 2020[203 1994 233 1810!233 1810[262 1626 186 1393"/>
+                    <Edge cubics="!-387 1518(;-285,1830 -74,2055 84,2020q-387 1518Q-310 1752q-172 1899Q-34 2046q84 2020);"/>
+                    <Edge cubics="!84 2020(;242,1985 288,1704 186,1393q84 2020Q203 1994q233 1810Q262 1626q186 1393);"/>
+                    <Edge cubics="!186 1393(;83,1081 -319,776 -477,811q186 1393Q112 1169q-125 972Q-351 783q-477 811);"/>
+                    <Edge cubics="!-477 811(;-635,845 -489,1206 -387,1518q-477 811Q-580 833q-529 1060Q-515 1128q-387 1518);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

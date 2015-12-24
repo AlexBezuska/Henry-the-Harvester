@@ -1,0 +1,33 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Symbol 13" itemID="567b0731-00000120" lastModified="1450903345">
+  <timeline>
+    <DOMTimeline name="Symbol 13">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape selected="true" isDrawingObject="true">
+                  <matrix>
+                    <Matrix tx="-57.7" ty="-55.75"/>
+                  </matrix>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#ACB456"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle0="1" edges="!1697 1115[1631 1102 1538 1793!1538 1793[1462 2365 1300 2985!1300 2985[1220 3295 1154 3491!1154 3491|1312 3542!1312 3542[1386 3357 1470 3053!1470 3053[1640 2443 1696 1843!1696 1843[1763 1128 1697 1115"/>
+                    <Edge cubics="!1154 3491(;1154,3491 1312,3542 1312,3542q1154 3491p1312 3542);"/>
+                    <Edge cubics="!1312 3542(;1312,3542 1606,2803 1696,1843q1312 3542Q1386 3357q1470 3053Q1640 2443q1696 1843);"/>
+                    <Edge cubics="!1696 1843(;1786,884 1661,878 1538,1793q1696 1843Q1763 1128q1697 1115Q1631 1102q1538 1793);"/>
+                    <Edge cubics="!1538 1793(;1416,2708 1154,3491 1154,3491q1538 1793Q1462 2365q1300 2985Q1220 3295q1154 3491);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>
