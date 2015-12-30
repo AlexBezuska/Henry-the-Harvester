@@ -70,8 +70,11 @@
 				"name": "player-down",
 				"sourceX": 0,
 				"sourceY": 0,
+				"destinationX": 0,
 				"sourceWidth": 4541,
-				"sourceHeight": 259
+				"sourceHeight": 259,
+				"destinationWidth": 239,
+				"destinationHeight": 259
 			}
 		}
 	}],
@@ -83,8 +86,11 @@
 				"name": "player-slap-down",
 				"sourceX": 0,
 				"sourceY": 0,
+				"destinationX": -45,
 				"sourceWidth": 4728,
-				"sourceHeight": 258
+				"sourceHeight": 258,
+				"destinationWidth": 394,
+				"destinationHeight": 258
 			}
 		}
 	}],
@@ -96,8 +102,11 @@
 				"name": "player-left",
 				"sourceX": 0,
 				"sourceY": 0,
+				"destinationX": 0,
 				"sourceWidth": 3876,
-				"sourceHeight": 258
+				"sourceHeight": 258,
+				"destinationWidth": 239,
+				"destinationHeight": 258
 			}
 		}
 	}],
@@ -109,8 +118,11 @@
 				"name": "player-right",
 				"sourceX": 0,
 				"sourceY": 0,
+				"destinationX": 0,
 				"sourceWidth": 3876,
-				"sourceHeight": 258
+				"sourceHeight": 258,
+				"destinationWidth": 239,
+				"destinationHeight": 258
 			}
 		}
 	}],
@@ -122,8 +134,11 @@
 				"name": "player-up",
 				"sourceX": 0,
 				"sourceY": 0,
+				"destinationX": 0,
 				"sourceWidth": 4560,
-				"sourceHeight": 258
+				"sourceHeight": 258,
+				"destinationWidth": 239,
+				"destinationHeight": 258
 			}
 		}
 	}]

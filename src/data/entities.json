@@ -39,25 +39,6 @@
 			}
 		},
 		{
-			"id": 1,
-			"name": "sword",
-			"sword": true,
-			"color": "blue",
-			"position": {
-				"x": 0,
-				"y": 0
-			},
-			"size": {
-				"width": 50,
-				"height": 100
-			},
-			"match": {
-				"id": 0,
-				"offsetX": 0,
-				"offsetY": 100
-			}
-		},
-		{
 			"id": 10,
 			"name": "camera",
 			"position": {

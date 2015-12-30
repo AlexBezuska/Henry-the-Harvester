@@ -1,14 +1,14 @@
 {
-	"grass":{
+	"grass": {
 		"position": {
 			"x": 50,
-			"y": 50,
+			"y": 50
 		},
 		"size": {
 			"width": 70,
 			"height": 30
 		},
-		"collisions":[],
+		"collisions": [],
 		"animation": {
 			"time": 0,
 			"frame": 0,
