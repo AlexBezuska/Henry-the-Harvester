@@ -77,6 +77,11 @@
 		"scenes": [
 			"main"
 		]
+	},{
+		"name": "./systems/simulation/collect",
+		"scenes": [
+			"main"
+		]
 	}],
 	"renderer": [
 		{

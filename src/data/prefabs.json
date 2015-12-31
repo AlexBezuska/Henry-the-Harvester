@@ -1,5 +1,6 @@
 {
-	"grass": {
+	"flower": {
+		"type": "flower",
 		"position": {
 			"x": 50,
 			"y": 50
@@ -14,10 +15,10 @@
 			"frame": 0,
 			"loop": true,
 			"speed": 1,
-			"name": "bellflower-1"
+			"name": "flower-1"
 		},
 		"image": {
-			"name": "bellflower-1",
+			"name": "flower-1",
 			"sourceX": 0,
 			"sourceY": 0,
 			"sourceWidth": 70,
@@ -29,6 +30,7 @@
 		}
 	},
 	"pod": {
+		"type": "pod",
 		"size": {
 			"width": 35,
 			"height": 50
@@ -37,6 +39,14 @@
 			"name": "pod",
 			"sourceWidth": 35,
 			"sourceHeight": 50
+		},
+		"timers": {
+			"shoot": {
+				"running": true,
+				"time": 0,
+				"max": 200,
+				"script": "./scripts/add-collisions"
+			}
 		}
 	}
 }

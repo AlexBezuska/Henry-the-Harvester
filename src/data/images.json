@@ -1,8 +1,7 @@
 {
- "bellflower-1": "images/bellflower-1.png",
- "bellflower-2": "images/bellflower-2.png",
- "bellflower-3": "images/bellflower-3.png",
- "grass": "images/grass.png",
+ "flower-1": "images/flower-1.png",
+ "flower-2": "images/flower-2.png",
+ "flower-3": "images/flower-3.png",
  "pod": "images/pod.png",
  "logo": "images/logo.png",
  "player-down": "images/player-down.png",

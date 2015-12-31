@@ -38,11 +38,11 @@
 			}
 		}
 	}],
-	"grass": [{
+	"flower": [{
 		"time": 100,
 		"properties": {
 			"image": {
-				"name": "grass",
+				"name": "flower",
 				"sourceX": 0,
 				"sourceY": 0,
 				"sourceWidth": 128,

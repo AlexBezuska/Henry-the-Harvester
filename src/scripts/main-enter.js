@@ -36,6 +36,6 @@ function spawnRandomly(entities, prefab, position, size) {
 module.exports = function(data) { // eslint-disable-line no-unused-vars
 
 	for(var i =0; i < 20; i++){
-		spawnRandomly(data.entities, "grass", data.entities.get(2, "position"), data.entities.get(2, "size"));
+		spawnRandomly(data.entities, "flower", data.entities.get(2, "position"), data.entities.get(2, "size"));
 	}
 };
