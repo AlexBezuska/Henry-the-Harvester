@@ -27,5 +27,16 @@
 			"destinationWidth": 70,
 			"destinationHeight": 95
 		}
+	},
+	"pod": {
+		"size": {
+			"width": 35,
+			"height": 50
+		},
+		"image": {
+			"name": "pod",
+			"sourceWidth": 35,
+			"sourceHeight": 50
+		}
 	}
 }

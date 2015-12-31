@@ -7,7 +7,7 @@
 			"score": 0,
 			"speed": 0.2,
 			"position": {
-				"x": 300,
+				"x": 620,
 				"y": 300
 			},
 			"facing": "down",
@@ -36,6 +36,48 @@
 				"destinationY": -204,
 				"destinationWidth": 239,
 				"destinationHeight": 259
+			}
+		},
+		{
+			"id": 1,
+			"name": "bin",
+			"hovering": true,
+			"position": {
+				"x": 20,
+				"y": 0
+			},
+			"size": {
+				"width": 601,
+				"height": 90
+			},
+			"velocity": {
+				"x": 0,
+				"y": 0
+			},
+			"collisions":[],
+			"image": {
+				"name": "bin",
+				"sourceX": 0,
+				"sourceY": 0,
+				"sourceWidth": 601,
+				"sourceHeight": 218,
+				"destinationX": 0,
+				"destinationY": -94,
+				"destinationWidth": 601,
+				"destinationHeight": 218
+			}
+		},
+		{
+			"id": 2,
+			"name": "flower-garden",
+			"color": "blue",
+			"position": {
+				"x": 800,
+				"y": 0
+			},
+			"size": {
+				"width": 800,
+				"height": 800
 			}
 		},
 		{

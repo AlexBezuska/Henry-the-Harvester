@@ -33,6 +33,7 @@
     "webpack-dev-server": "^1.14.0"
   },
   "dependencies": {
+	"easing-js": "^1.0.1",
     "splat-ecs": "2.0.0"
   }
 }
