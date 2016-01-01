@@ -1,12 +1,12 @@
 {
 	"flower": {
-		"type": "flower",
+		"flower": true,
 		"position": {
 			"x": 50,
 			"y": 50
 		},
 		"size": {
-			"width": 70,
+			"width": 84,
 			"height": 30
 		},
 		"collisions": [],
@@ -21,16 +21,16 @@
 			"name": "flower-1",
 			"sourceX": 0,
 			"sourceY": 0,
-			"sourceWidth": 70,
-			"sourceHeight": 95,
+			"sourceWidth": 84,
+			"sourceHeight": 120,
 			"destinationX": 0,
 			"destinationY": -65,
-			"destinationWidth": 70,
-			"destinationHeight": 95
+			"destinationWidth": 84,
+			"destinationHeight": 120
 		}
 	},
 	"pod": {
-		"type": "pod",
+		"pod" : true,
 		"size": {
 			"width": 35,
 			"height": 50
@@ -41,12 +41,42 @@
 			"sourceHeight": 50
 		},
 		"timers": {
-			"shoot": {
+			"add-collisions": {
 				"running": true,
 				"time": 0,
 				"max": 200,
 				"script": "./scripts/add-collisions"
 			}
+		},
+		"noises": [
+			"pop1",
+			"pop2",
+			"pop3",
+			"pop4",
+			"pop5",
+			"pop6"
+		]
+	},
+	"decoration1": {
+		"size": {
+			"width": 105,
+			"height": 50
+		},
+		"image": {
+			"name": "decoration1",
+			"sourceWidth": 105,
+			"sourceHeight": 50
+		}
+	},
+	"decoration2": {
+		"size": {
+			"width": 109,
+			"height": 50
+		},
+		"image": {
+			"name": "decoration2",
+			"sourceWidth": 109,
+			"sourceHeight": 50
 		}
 	}
 }

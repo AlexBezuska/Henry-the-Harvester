@@ -1,5 +1,7 @@
 "use strict";
 
+var random = require("../../random");
+
 function getCenter(entity, data){
 	var entityPosition = data.entities.get(entity, "position");
 	var entitySize = data.entities.get(entity, "size");
@@ -24,19 +26,25 @@ function floorPoint(point){
 		"y": Math.floor(point.y)
 	};
 }
+
+var twoPI = Math.PI * 2;
+
 module.exports = function(ecs, data) { // eslint-disable-line no-unused-vars
 	ecs.addEach(function harvest(player, elapsed) { // eslint-disable-line no-unused-vars
 		var playerCollisions = data.entities.get(player, "collisions");
 
 		for (var i = 0; i < playerCollisions.length; i++) {
 			var other = playerCollisions[i];
-			if (data.entities.get(other, "type") === "flower"
-			&& data.input.button("action")) {
-				var otherCenter = getCenter(other, data);
+			if (data.entities.get(other, "flower") && data.input.button("action")) {
+				var flowerCenter = getCenter(other, data);
+				var flowerPods = data.entities.get(other, "pods");
+				var swingNoises = data.entities.get(player, "swing-noises");
+				data.sounds.play(random.from(swingNoises));
 				data.entities.destroy(other);
-				for(var j = 0; j < 5; j++){
+				for(var j = 0; j < flowerPods; j++){
 					var newPod = data.instantiatePrefab("pod");
-					var newPosition = floorPoint(blastRadius(otherCenter,((2*Math.PI)/ 5)*j, 100));
+					var newPosition = floorPoint(blastRadius(flowerCenter,( twoPI / flowerPods )*j, 100));
+					data.entities.set(newPod, "rotation", { "angle": random.inRange( 0, twoPI ) } );
 					data.entities.set(newPod, "position", newPosition);
 				}
 			}

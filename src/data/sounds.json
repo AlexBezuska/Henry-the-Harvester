@@ -1,4 +1,10 @@
 {
-	"sword-swing": "sounds/sword-swing.mp3",
-	"sword-swing2": "sounds/sword-swing2.mp3"
+	"pop1": "sounds/pop1.mp3",
+	"pop2": "sounds/pop2.mp3",
+	"pop3": "sounds/pop3.mp3",
+	"pop4": "sounds/pop4.mp3",
+	"pop5": "sounds/pop5.mp3",
+	"pop6": "sounds/pop6.mp3",
+	"swing": "sounds/swing.mp3",
+	"swing2": "sounds/swing2.mp3"
 }

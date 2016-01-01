@@ -1,52 +1,14 @@
 {
-	"bellflower-1": [{
-		"filmstripFrames": 6,
-		"time": 500,
-		"properties": {
-			"image": {
-				"name": "bellflower-1",
-				"sourceX": 0,
-				"sourceY": 0,
-				"sourceWidth": 420,
-				"sourceHeight": 95
-			}
-		}
-	}],
-	"bellflower-2": [{
-		"filmstripFrames": 6,
-		"time": 500,
-		"properties": {
-			"image": {
-				"name": "bellflower-2",
-				"sourceX": 0,
-				"sourceY": 0,
-				"sourceWidth": 420,
-				"sourceHeight": 98
-			}
-		}
-	}],
-	"bellflower-3": [{
-		"filmstripFrames": 6,
-		"time": 500,
-		"properties": {
-			"image": {
-				"name": "bellflower-3",
-				"sourceX": 0,
-				"sourceY": 0,
-				"sourceWidth": 420,
-				"sourceHeight": 109
-			}
-		}
-	}],
 	"flower": [{
-		"time": 100,
+		"filmstripFrames": 3,
+		"time": 200,
 		"properties": {
 			"image": {
-				"name": "flower",
+				"name": "flower-1",
 				"sourceX": 0,
 				"sourceY": 0,
-				"sourceWidth": 128,
-				"sourceHeight": 128
+				"sourceWidth": 252,
+				"sourceHeight": 122
 			}
 		}
 	}],
@@ -62,83 +24,93 @@
 			}
 		}
 	}],
+	"player-idle-down": [{
+		"filmstripFrames": 15,
+		"time": 200,
+		"properties": {
+			"image": {
+				"name": "player-idle-down",
+				"sourceX": 0,
+				"sourceY": 0,
+				"sourceWidth": 2145,
+				"sourceHeight": 200,
+				"destinationWidth": 145,
+				"destinationHeight": 200
+			}
+		}
+	}],
 	"player-down": [{
-		"filmstripFrames": 19,
-		"time": 100,
+		"filmstripFrames": 4,
+		"time": 200,
 		"properties": {
 			"image": {
 				"name": "player-down",
 				"sourceX": 0,
 				"sourceY": 0,
-				"destinationX": 0,
-				"sourceWidth": 4541,
-				"sourceHeight": 259,
-				"destinationWidth": 239,
-				"destinationHeight": 259
+				"sourceWidth": 574,
+				"sourceHeight": 200,
+				"destinationWidth": 144,
+				"destinationHeight": 200
 			}
 		}
 	}],
-	"player-slap-down": [{
-		"filmstripFrames": 12,
+	"player-swing-down": [{
+		"filmstripFrames": 1,
 		"time": 100,
 		"properties": {
 			"image": {
-				"name": "player-slap-down",
+				"name": "player-swing-down",
 				"sourceX": 0,
 				"sourceY": 0,
-				"destinationX": -45,
-				"sourceWidth": 4728,
-				"sourceHeight": 258,
-				"destinationWidth": 394,
-				"destinationHeight": 258
+				"sourceWidth": 136,
+				"sourceHeight": 200,
+				"destinationWidth": 136,
+				"destinationHeight": 200
 			}
 		}
 	}],
 	"player-left": [{
-		"filmstripFrames": 19,
-		"time": 100,
+		"filmstripFrames": 4,
+		"time": 200,
 		"properties": {
 			"image": {
 				"name": "player-left",
 				"sourceX": 0,
 				"sourceY": 0,
-				"destinationX": 0,
-				"sourceWidth": 3876,
-				"sourceHeight": 258,
-				"destinationWidth": 239,
-				"destinationHeight": 258
+				"sourceWidth": 512,
+				"sourceHeight": 200,
+				"destinationWidth": 128,
+				"destinationHeight": 200
 			}
 		}
 	}],
 	"player-right": [{
-		"filmstripFrames": 19,
-		"time": 100,
+		"filmstripFrames": 4,
+		"time": 200,
 		"properties": {
 			"image": {
 				"name": "player-right",
 				"sourceX": 0,
 				"sourceY": 0,
-				"destinationX": 0,
-				"sourceWidth": 3876,
-				"sourceHeight": 258,
-				"destinationWidth": 239,
-				"destinationHeight": 258
+				"sourceWidth": 512,
+				"sourceHeight": 200,
+				"destinationWidth": 128,
+				"destinationHeight": 200
 			}
 		}
 	}],
 	"player-up": [{
-		"filmstripFrames": 19,
-		"time": 100,
+		"filmstripFrames": 4,
+		"time": 200,
 		"properties": {
 			"image": {
 				"name": "player-up",
 				"sourceX": 0,
 				"sourceY": 0,
-				"destinationX": 0,
-				"sourceWidth": 4560,
-				"sourceHeight": 258,
-				"destinationWidth": 239,
-				"destinationHeight": 258
+				"sourceWidth": 668,
+				"sourceHeight": 199,
+				"destinationWidth": 167,
+				"destinationHeight": 199
 			}
 		}
 	}]

@@ -1,11 +1,10 @@
 {
-	"simulation": [
-		{
-		  "name": "./systems/simulation/track-last-position",
-		  "scenes": [
-			  "main"
-		  ]
-	  },{
+	"simulation": [{
+		"name": "./systems/simulation/track-last-position",
+		"scenes": [
+			"main"
+		]
+	}, {
 		"name": "splat-ecs/lib/systems/match-canvas-size",
 		"scenes": [
 			"main"
@@ -50,19 +49,17 @@
 		"scenes": [
 			"main"
 		]
-	},{
+	}, {
 		"name": "./systems/simulation/player-animations",
 		"scenes": [
 			"main"
 		]
-	},
-	 {
+	}, {
 		"name": "./systems/simulation/hover-entity",
 		"scenes": [
 			"main"
 		]
-	},
-	 {
+	}, {
 		"name": "splat-ecs/lib/systems/box-collider",
 		"scenes": [
 			"main"
@@ -77,50 +74,48 @@
 		"scenes": [
 			"main"
 		]
-	},{
+	}, {
 		"name": "./systems/simulation/collect",
 		"scenes": [
 			"main"
 		]
 	}],
-	"renderer": [
-		{
-			"name": "splat-ecs/lib/systems/clear-screen",
-			"scenes": [
-				"main"
-			]
-		},
-		{
-			"name": "./systems/renderer/draw-background",
-			"scenes": [
-				"main"
-			]
-		},{
-			"name": "splat-ecs/lib/systems/viewport-move-to-camera",
-			"scenes": [
-				"main"
-			]
-		},
-		{
-			"name": "splat-ecs/lib/systems/draw-image",
-			"scenes": [
-				"main"
-			]
-		}, {
-			"name": "splat-ecs/lib/systems/viewport-reset",
-			"scenes": [
-				"main"
-			]
-		}, {
-			"name": "splat-ecs/lib/systems/draw-frame-rate",
-			"scenes": [
-				"main"
-			]
-		},  {
-			"name": "./systems/renderer/draw-score",
-			"scenes": [
-				"main"
-			]
-		}
-	]
+	"renderer": [{
+		"name": "splat-ecs/lib/systems/clear-screen",
+		"scenes": [
+			"main"
+		]
+	}, {
+		"name": "./systems/renderer/draw-background",
+		"scenes": [
+			"main"
+		]
+	}, {
+		"name": "splat-ecs/lib/systems/viewport-move-to-camera",
+		"scenes": [
+			"main"
+		]
+	}, {
+		"name": "splat-ecs/lib/systems/draw-image",
+		"scenes": [
+			"main"
+		]
+	},
+
+   {
+		"name": "splat-ecs/lib/systems/viewport-reset",
+		"scenes": [
+			"main"
+		]
+	}, {
+		"name": "splat-ecs/lib/systems/draw-frame-rate",
+		"scenes": [
+			"main"
+		]
+	}, {
+		"name": "./systems/renderer/draw-score",
+		"scenes": [
+			"main"
+		]
+	}]
 }

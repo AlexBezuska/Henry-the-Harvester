@@ -6,14 +6,18 @@
 			"player": true,
 			"score": 0,
 			"speed": 0.2,
+			"swing-noises": [
+				"swing",
+				"swing2"
+			],
 			"position": {
 				"x": 620,
 				"y": 300
 			},
 			"facing": "down",
 			"size": {
-				"width": 209,
-				"height": 50
+				"width": 100,
+				"height": 40
 			},
 			"velocity": {
 				"x": 0,
@@ -25,17 +29,17 @@
 				"frame": 0,
 				"loop": true,
 				"speed": 1,
-				"name": "player-down"
+				"name": "player-idle-down"
 			},
 			"image": {
 				"sourceX": 0,
 				"sourceY": 0,
-				"sourceWidth": 239,
-				"sourceHeight": 254,
-				"destinationX": -15,
-				"destinationY": -204,
-				"destinationWidth": 239,
-				"destinationHeight": 259
+				"sourceWidth": 143,
+				"sourceHeight": 200,
+				"destinationX": -30,
+				"destinationY": -160,
+				"destinationWidth": 143,
+				"destinationHeight": 200
 			}
 		},
 		{

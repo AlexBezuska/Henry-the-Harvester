@@ -1,10 +1,7 @@
 "use strict";
 
 var prefabs = require("../data/prefabs");
-
-function randomRange(min, max) {
-	return Math.floor(Math.random() * ((max + 1) - min)) + min;
-}
+var random = require("../random");
 
 function clone(obj) {
 	return JSON.parse(JSON.stringify(obj)); // gross
@@ -22,20 +19,46 @@ function makePrefab(name, entities) {
 	return id;
 }
 
-function spawnRandomly(entities, prefab, position, size) {
-	var entity = makePrefab(prefab, entities);
-	var entitySize = entities.get(entity, "size");
+function spawnFlowers(entities, prefab, position, size) {
+	var flower = makePrefab(prefab, entities);
+	entities.set(flower, "pods", Math.floor(random.inRange(2,6)) );
+	var entitySize = entities.get(flower, "size");
 	var tilesWide = Math.floor(size.width  / entitySize.width);
 	var tilesTall = Math.floor(size.height / entitySize.height);
-	var newX = randomRange(0, tilesWide);
-	var newY = randomRange(0, tilesTall);
-	entities.set(entity, "position", {"x": position.x + (newX * entitySize.width),  "y": position.y + (newY * entitySize.height) });
+	var newX = random.inRange(0, tilesWide);
+	var newY = random.inRange(0, tilesTall);
+	entities.set(flower, "position", {"x": position.x + (newX * entitySize.width),  "y": position.y + (newY * entitySize.height) });
 }
 
+var decorations = [
+	"decoration1",
+	"decoration2"
+];
+
+function spawnDecorations(entities, prefab, position, size) {
+	var decoration = makePrefab(prefab, entities);
+	entities.set(decoration, "pods", Math.floor(random.inRange(2,6)) );
+	var entitySize = entities.get(decoration, "size");
+	var tilesWide = Math.floor(size.width  / entitySize.width);
+	var tilesTall = Math.floor(size.height / entitySize.height);
+	var newX = random.inRange(0, tilesWide);
+	var newY = random.inRange(0, tilesTall);
+	entities.set(decoration, "position", {"x": position.x + (newX * entitySize.width),  "y": position.y + (newY * entitySize.height) });
+}
 
 module.exports = function(data) { // eslint-disable-line no-unused-vars
 
-	for(var i =0; i < 20; i++){
-		spawnRandomly(data.entities, "flower", data.entities.get(2, "position"), data.entities.get(2, "size"));
+	for(var i =0; i < 300; i++){
+		spawnDecorations(data.entities, random.from(decorations), { "x": -2000, "y": -2000 }, { "width": 8000, "height": 8000 });
 	}
+
+	for(var j =0; j < 20; j++){
+		spawnFlowers(data.entities, "flower", data.entities.get(2, "position"), data.entities.get(2, "size"));
+	}
+
+	var totalPods = data.entities.find("pods").reduce( function(total, currentId) {
+		return total + data.entities.get(currentId, "pods");
+	}, 0);
+
+	data.entities.set(2, "totalPods", totalPods);
 };
