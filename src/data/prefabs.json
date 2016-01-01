@@ -58,6 +58,7 @@
 		]
 	},
 	"decoration1": {
+		"zindex": -110,
 		"size": {
 			"width": 105,
 			"height": 50
@@ -69,6 +70,7 @@
 		}
 	},
 	"decoration2": {
+		"zindex": -10,
 		"size": {
 			"width": 109,
 			"height": 50
