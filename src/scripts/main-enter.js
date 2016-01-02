@@ -36,19 +36,19 @@ var decorations = [
 ];
 
 function spawnPrefabsInRect(entities, prefab, position, size) {
-	var prefab = makePrefab(prefab, entities);
-	var entitySize = entities.get(prefab, "size");
+	var newPrefab = makePrefab(prefab, entities);
+	var entitySize = entities.get(newPrefab, "size");
 	var tilesWide = Math.floor(size.width  / entitySize.width);
 	var tilesTall = Math.floor(size.height / entitySize.height);
 	var newX = random.inRange(0, tilesWide);
 	var newY = random.inRange(0, tilesTall);
-	entities.set(prefab, "position", {"x": position.x + (newX * entitySize.width),  "y": position.y + (newY * entitySize.height) });
+	entities.set(newPrefab, "position", {"x": position.x + (newX * entitySize.width),  "y": position.y + (newY * entitySize.height) });
 }
 
 module.exports = function(data) { // eslint-disable-line no-unused-vars
 
-	for(var i =0; i < 300; i++){
-		spawnPrefabsInRect(data.entities, random.from(decorations), { "x": -2000, "y": -2000 }, { "width": 8000, "height": 8000 });
+	for(var i =0; i < 180; i++){
+		spawnPrefabsInRect(data.entities, random.from(decorations), { "x": -1000, "y": -1000 }, { "width": 4000, "height": 2500 });
 	}
 
 	for(var j =0; j < 20; j++){

@@ -1,10 +1,12 @@
 {
 	"main": [
 		{
+			"showHitBox": true,
 			"id": 0,
 			"name": "player",
 			"player": true,
 			"score": 0,
+			"holding": 0,
 			"speed": 0.2,
 			"swing-noises": [
 				"swing",
@@ -43,32 +45,66 @@
 			}
 		},
 		{
+			"showHitBox": true,
+			"zindex":{
+				"zindex": 0
+			},
+			"id": 3,
+			"bin": true,
+			"name": "bin-shadow",
+
+			"position": {
+				"x": 200,
+				"y": 220
+			},
+			"size": {
+				"width": 230,
+				"height": 60
+			},
+			"image": {
+				"name": "bin-shadow",
+				"destinationWidth": 282,
+				"destinationHeight": 60
+			},
+			"collisions":[]
+		},
+		{
+			"zindex":{
+				"zindex": 1
+			},
+			"showHitBox": true,
 			"id": 1,
 			"name": "bin",
 			"hovering": true,
 			"position": {
-				"x": 20,
-				"y": 0
+				"x": 200,
+				"y": 200
 			},
 			"size": {
-				"width": 601,
-				"height": 90
+				"width": 230,
+				"height": 55
 			},
 			"velocity": {
 				"x": 0,
 				"y": 0
 			},
-			"collisions":[],
+			"animation": {
+				"time": 0,
+				"frame": 0,
+				"loop": true,
+				"speed": 1,
+				"name": "bin"
+			},
 			"image": {
-				"name": "d3ede",
+				"name": "bin",
 				"sourceX": 0,
 				"sourceY": 0,
-				"sourceWidth": 601,
-				"sourceHeight": 218,
+				"sourceWidth": 282,
+				"sourceHeight": 150,
 				"destinationX": 0,
 				"destinationY": -94,
-				"destinationWidth": 601,
-				"destinationHeight": 218
+				"destinationWidth": 282,
+				"destinationHeight": 150
 			}
 		},
 		{
@@ -100,6 +136,32 @@
 				"distance": 0
 			},
 			"camera": true
+		},
+		{
+			"id": 11,
+			"color": "rgba(37,36,34, 0.8)",
+			"scorebar-bg": true,
+			"position": {
+				"x": 0,
+				"y": 20
+			},
+			"size": {
+				"width": 600,
+				"height": 32
+			}
+		},
+		{
+			"id": 12,
+			"color": "#DD0748",
+			"scorebar-score": true,
+			"position": {
+				"x": 0,
+				"y": 20
+			},
+			"size": {
+				"width": 0,
+				"height": 32
+			}
 		}
 	]
 

@@ -47,7 +47,7 @@
 				"name": "player-down",
 				"sourceX": 0,
 				"sourceY": 0,
-				"sourceWidth": 574,
+				"sourceWidth": 576,
 				"sourceHeight": 200,
 				"destinationWidth": 144,
 				"destinationHeight": 200
@@ -111,6 +111,21 @@
 				"sourceHeight": 199,
 				"destinationWidth": 167,
 				"destinationHeight": 199
+			}
+		}
+	}],
+	"bin": [{
+		"filmstripFrames": 2,
+		"time": 200,
+		"properties": {
+			"image": {
+				"name": "bin",
+				"sourceX": 0,
+				"sourceY": 0,
+				"sourceWidth": 536,
+				"sourceHeight": 143,
+				"destinationWidth": 268,
+				"destinationHeight": 143
 			}
 		}
 	}]

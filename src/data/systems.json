@@ -9,7 +9,8 @@
 		"scenes": [
 			"main"
 		]
-	}, {
+	},
+	{
 		"name": "splat-ecs/lib/systems/advance-timers",
 		"scenes": [
 			"main"
@@ -55,11 +56,6 @@
 			"main"
 		]
 	}, {
-		"name": "./systems/simulation/hover-entity",
-		"scenes": [
-			"main"
-		]
-	}, {
 		"name": "splat-ecs/lib/systems/box-collider",
 		"scenes": [
 			"main"
@@ -75,7 +71,29 @@
 			"main"
 		]
 	}, {
+		"name": "./systems/simulation/deposit-pods",
+		"scenes": [
+			"main"
+		]
+	}, {
+		"name": "./systems/simulation/ease-pods",
+		"scenes": [
+			"main"
+		]
+	}, {
 		"name": "./systems/simulation/collect",
+		"scenes": [
+			"main"
+		]
+	},
+	{
+		 "name": "./systems/simulation/hover-entity",
+		 "scenes": [
+			 "main"
+		 ]
+	 },
+	{
+		"name": "./systems/simulation/zoom",
 		"scenes": [
 			"main"
 		]
@@ -101,6 +119,12 @@
 			"main"
 		]
 	},
+	{
+ 		"name": "splat-ecs/lib/systems/show-hitboxes",
+ 		"scenes": [
+ 			"main"
+ 		]
+ 	},
 
    {
 		"name": "splat-ecs/lib/systems/viewport-reset",

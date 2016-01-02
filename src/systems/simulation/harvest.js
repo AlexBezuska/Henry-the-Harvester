@@ -45,7 +45,10 @@ module.exports = function(ecs, data) { // eslint-disable-line no-unused-vars
 					var newPod = data.instantiatePrefab("pod");
 					var newPosition = floorPoint(blastRadius(flowerCenter,( twoPI / flowerPods )*j, 100));
 					data.entities.set(newPod, "rotation", { "angle": random.inRange( 0, twoPI ) } );
-					data.entities.set(newPod, "position", newPosition);
+					data.entities.get(newPod, "easingProps").positionX.start = flowerCenter.x;
+					data.entities.get(newPod, "easingProps").positionY.start = flowerCenter.y;
+					data.entities.get(newPod, "easingProps").positionX.end = newPosition.x;
+					data.entities.get(newPod, "easingProps").positionY.end = newPosition.y;
 				}
 			}
 		}

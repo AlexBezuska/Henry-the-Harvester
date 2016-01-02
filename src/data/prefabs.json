@@ -1,13 +1,14 @@
 {
 	"flower": {
+		"showHitBox": true,
 		"flower": true,
 		"position": {
 			"x": 50,
 			"y": 50
 		},
 		"size": {
-			"width": 84,
-			"height": 30
+			"width": 34,
+			"height": 20
 		},
 		"collisions": [],
 		"animation": {
@@ -23,14 +24,19 @@
 			"sourceY": 0,
 			"sourceWidth": 84,
 			"sourceHeight": 120,
-			"destinationX": 0,
-			"destinationY": -65,
+			"destinationX": -30,
+			"destinationY": -100,
 			"destinationWidth": 84,
 			"destinationHeight": 120
 		}
 	},
 	"pod": {
+		"showHitBox": true,
 		"pod" : true,
+		"position": {
+			"x": 0,
+			"y": 0
+		},
 		"size": {
 			"width": 35,
 			"height": 50
@@ -44,7 +50,7 @@
 			"add-collisions": {
 				"running": true,
 				"time": 0,
-				"max": 200,
+				"max": 600,
 				"script": "./scripts/add-collisions"
 			}
 		},
@@ -55,7 +61,13 @@
 			"pop4",
 			"pop5",
 			"pop6"
-		]
+		],
+		"easingProps": {
+			"positionX": { "start": 0, "end": 0 },
+			"positionY": { "start": 0, "end": 0 },
+			"time": 0,
+			"duration": 600
+		}
 	},
 	"decoration1": {
 		"zindex": -110,

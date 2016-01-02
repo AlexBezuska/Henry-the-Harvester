@@ -59,5 +59,32 @@
     "key": "right"
    }
   ]
+ },
+ "zoom out": {
+  "type": "button",
+  "inputs": [
+   {
+    "device": "keyboard",
+    "key": "j"
+   }
+  ]
+ },
+ "zoom in": {
+  "type": "button",
+  "inputs": [
+   {
+    "device": "keyboard",
+    "key": "k"
+   }
+  ]
+ },
+ "zoom reset": {
+  "type": "button",
+  "inputs": [
+   {
+    "device": "keyboard",
+    "key": "l"
+   }
+  ]
  }
 }

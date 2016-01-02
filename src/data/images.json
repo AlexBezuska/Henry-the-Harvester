@@ -9,6 +9,7 @@
  "player-right": "images/player-right.png",
  "player-up": "images/player-up.png",
  "bin": "images/bin.png",
+ "bin-shadow": "images/bin-shadow.png",
  "decoration1": "images/decoration1.png",
  "decoration2": "images/decoration2.png"
 }

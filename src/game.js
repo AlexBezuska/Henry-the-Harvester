@@ -37,7 +37,7 @@ function customRequire(path) {
 		var dataName = "./" + path.substr(localDataPath.length + 1) + ".json";
 		return localDataRequire(dataName);
 	}
-	console.error("Unable to load module: \"", path, "\"");
+	console.error("Unable to load module: \"", path, "\"");  // eslint-disable-line no-console
 	return undefined;
 }
 require("./index.html");
