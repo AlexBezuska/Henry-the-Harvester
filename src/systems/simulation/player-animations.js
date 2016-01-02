@@ -4,6 +4,7 @@ module.exports = function(ecs, data) {
 	ecs.addEach(function(player, elapsed) { // eslint-disable-line no-unused-vars
 		var playerFacing = data.entities.get(player, "facing");
 		var playerAnimation = data.entities.get(player, "animation");
+		var timers = data.entities.get(player, "timers");
 
 		// if( data.input.button("up")
 		// || data.input.button("right")
@@ -16,7 +17,7 @@ module.exports = function(ecs, data) {
 		// }
 
 		if(playerFacing === "down"){
-			if(data.input.button("action")){
+			if(timers.action.running){
 				playerAnimation.name = "player-swing-down";
 			}else if(data.input.button("down")){
 				playerAnimation.name = "player-down";
@@ -27,7 +28,7 @@ module.exports = function(ecs, data) {
 			}
 		}
 		if(playerFacing === "up"){
-			if(data.input.button("action")){
+			if(timers.action.running){
 				playerAnimation.name = "player-swing-down";
 			}else if(data.input.button("up")){
 				playerAnimation.name = "player-up";
@@ -38,7 +39,7 @@ module.exports = function(ecs, data) {
 			}
 		}
 		if(playerFacing === "right"){
-			if(data.input.button("action")){
+			if(timers.action.running){
 				playerAnimation.name = "player-swing-down";
 			}else if(data.input.button("right")){
 				playerAnimation.name = "player-right";
@@ -49,7 +50,7 @@ module.exports = function(ecs, data) {
 			}
 		}
 		if(playerFacing === "left"){
-			if(data.input.button("action")){
+			if(timers.action.running){
 				playerAnimation.name = "player-swing-down";
 			}else if(data.input.button("left")){
 				playerAnimation.name = "player-left";
