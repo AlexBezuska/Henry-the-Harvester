@@ -141,5 +141,10 @@
 		"scenes": [
 			"main"
 		]
+	}, {
+		"name": "./systems/renderer/inventory",
+		"scenes": [
+			"main"
+		]
 	}]
 }

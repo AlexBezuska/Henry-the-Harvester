@@ -31,21 +31,23 @@ module.exports = function(ecs, data) { // eslint-disable-line no-unused-vars
 			if (otherImage === undefined) {
 				continue;
 			}
-			if (wasLeft(entityLastPosition, entitySize, otherPosition)) {
-				entityPosition.x = otherPosition.x - entitySize.width;
-				entityVelocity.x = 0;
-			}
-			if (wasRight(entityLastPosition, otherPosition, otherSize)) {
-				entityPosition.x = otherPosition.x + otherSize.width;
-				entityVelocity.x = 0;
-			}
-			if (wasAbove(entityLastPosition, entitySize, otherPosition)) {
-				entityPosition.y = otherPosition.y - entitySize.height;
-				entityVelocity.y = 0;
-			}
-			if (wasBelow(entityLastPosition, otherPosition, otherSize)) {
-				entityPosition.y = otherPosition.y + otherSize.height;
-				entityVelocity.y = 0;
+			if (!data.entities.get(other, "pod")) {
+				if (wasLeft(entityLastPosition, entitySize, otherPosition)) {
+					entityPosition.x = otherPosition.x - entitySize.width;
+					entityVelocity.x = 0;
+				}
+				if (wasRight(entityLastPosition, otherPosition, otherSize)) {
+					entityPosition.x = otherPosition.x + otherSize.width;
+					entityVelocity.x = 0;
+				}
+				if (wasAbove(entityLastPosition, entitySize, otherPosition)) {
+					entityPosition.y = otherPosition.y - entitySize.height;
+					entityVelocity.y = 0;
+				}
+				if (wasBelow(entityLastPosition, otherPosition, otherSize)) {
+					entityPosition.y = otherPosition.y + otherSize.height;
+					entityVelocity.y = 0;
+				}
 			}
 		}
 	}, "resolveCollisions");

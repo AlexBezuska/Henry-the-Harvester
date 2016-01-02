@@ -92,5 +92,20 @@
 			"sourceWidth": 109,
 			"sourceHeight": 50
 		}
+	},
+	"pod-icon": {
+		"position": {
+			"x": 0,
+			"y": 0
+		},
+		"size": {
+			"width": 35,
+			"height": 50
+		},
+		"image": {
+			"name": "pod",
+			"sourceWidth": 35,
+			"sourceHeight": 50
+		}
 	}
 }

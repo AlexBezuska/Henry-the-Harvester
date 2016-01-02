@@ -3,7 +3,6 @@
 module.exports = function(ecs, data) { // eslint-disable-line no-unused-vars
 	ecs.addEach(function harvest(player, context) { // eslint-disable-line no-unused-vars
 		var score = data.entities.get(player, "score");
-		var holding = data.entities.get(player, "holding");
 		var total = data.entities.get(2, "totalPods");
 
 		var scorebarBg = 11;

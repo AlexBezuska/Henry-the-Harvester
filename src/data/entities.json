@@ -42,6 +42,10 @@
 				"destinationY": -160,
 				"destinationWidth": 143,
 				"destinationHeight": 200
+			},
+			"inventory": {
+				"total": 6,
+				"used": 0
 			}
 		},
 		{
