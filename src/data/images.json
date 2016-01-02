@@ -11,5 +11,6 @@
  "bin": "images/bin.png",
  "bin-shadow": "images/bin-shadow.png",
  "decoration1": "images/decoration1.png",
- "decoration2": "images/decoration2.png"
+ "decoration2": "images/decoration2.png",
+ "slot": "images/slot.png"
 }

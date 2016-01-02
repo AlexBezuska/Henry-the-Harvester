@@ -44,14 +44,14 @@
 				"destinationHeight": 200
 			},
 			"inventory": {
-				"total": 6,
+				"total": 9,
 				"used": 0
 			}
 		},
 		{
 			"showHitBox": true,
 			"zindex":{
-				"zindex": 0
+				"zindex": -1
 			},
 			"id": 3,
 			"bin": true,
@@ -73,9 +73,6 @@
 			"collisions":[]
 		},
 		{
-			"zindex":{
-				"zindex": 1
-			},
 			"showHitBox": true,
 			"id": 1,
 			"name": "bin",
