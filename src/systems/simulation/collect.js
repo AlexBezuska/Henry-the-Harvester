@@ -16,6 +16,7 @@ module.exports = function(ecs, data) { // eslint-disable-line no-unused-vars
 				data.entities.destroy(other);
 
 				inventory.used += 1;
+				data.entities.get(player, "timers").shake.running = true;
 
 			}
 		}

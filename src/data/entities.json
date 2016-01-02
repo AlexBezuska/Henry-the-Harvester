@@ -44,9 +44,16 @@
 				"destinationHeight": 200
 			},
 			"inventory": {
-				"total": 9,
+				"total": 8,
 				"used": 0
-			}
+			},
+			 "timers":{
+				"shake":{
+					"running": false,
+					"time": 0,
+					"max": 100
+				}
+	 		}
 		},
 		{
 			"showHitBox": true,
@@ -140,15 +147,15 @@
 		},
 		{
 			"id": 11,
-			"color": "rgba(37,36,34, 0.8)",
+			"color": "rgb(37,36,34)",
 			"scorebar-bg": true,
 			"position": {
-				"x": 0,
-				"y": 20
+				"x": 916,
+				"y": 520
 			},
 			"size": {
-				"width": 600,
-				"height": 32
+				"width": 113,
+				"height": 113
 			}
 		},
 		{
@@ -156,12 +163,12 @@
 			"color": "#DD0748",
 			"scorebar-score": true,
 			"position": {
-				"x": 0,
-				"y": 20
+				"x": 916,
+				"y": 633
 			},
 			"size": {
-				"width": 0,
-				"height": 32
+				"width": 113,
+				"height": 0
 			}
 		}
 	]

@@ -13,11 +13,11 @@ module.exports = function(ecs, data) { // eslint-disable-line no-unused-vars
 		var scorebarScoreSize = data.entities.get(scorebarScore, "size");
 
 
-		scorebarBgPosition.x = (data.canvas.width / 2) - scorebarBgSize.width/2;
+		//scorebarBgPosition.x = (data.canvas.width / 2) - scorebarBgSize.width/2;
 		drawRectangle(data, context, scorebarBg);
 
-		scorebarScorePosition.x = scorebarBgPosition.x;
-		scorebarScoreSize.width =  scorebarBgSize.width * (score / total);
+		scorebarScoreSize.height =  scorebarBgSize.height * (score / total);
+		scorebarScorePosition.y = (scorebarBgPosition.y + scorebarBgSize.height) - scorebarScoreSize.height;
 		drawRectangle(data, context, scorebarScore);
 
 	} ,    "player");
