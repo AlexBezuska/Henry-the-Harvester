@@ -7,11 +7,7 @@
 			"player": true,
 			"score": 0,
 			"holding": 0,
-			"speed": 0.6,
-			"swing-noises": [
-				"swing",
-				"swing2"
-			],
+			"speed": 0.2,
 			"position": {
 				"x": 620,
 				"y": 300
@@ -48,6 +44,11 @@
 				"used": 0
 			},
 			 "timers":{
+				 "walking":{
+				 "running": false,
+				 "time": 0,
+				 "max": 500
+			 	},
 				 "action":{
 				 "running": false,
 				 "time": 0,

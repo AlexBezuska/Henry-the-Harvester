@@ -31,6 +31,11 @@
 			"main"
 		]
 	}, {
+		"name": "./systems/simulation/walking-sounds",
+		"scenes": [
+			"main"
+		]
+	},{
 		"name": "splat-ecs/lib/systems/apply-movement-2d",
 		"scenes": [
 			"main"

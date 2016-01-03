@@ -1,5 +1,4 @@
 "use strict";
-var random = require("../../random");
 
 module.exports = function(ecs, data) {
 	ecs.addEach(function(entity, elapsed) { // eslint-disable-line no-unused-vars
@@ -30,8 +29,7 @@ module.exports = function(ecs, data) {
 			data.entities.set(entity, "facing", "down");
 		}
 		if (data.input.buttonPressed("action") && !timers.action.running) {
-			var swingNoises = data.entities.get(entity, "swing-noises");
-			data.sounds.play(random.from(swingNoises));
+			data.sounds.play("scissors");
 			timers.action.running = true;
 		}
 	}, "player");

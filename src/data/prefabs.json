@@ -71,7 +71,9 @@
 		}
 	},
 	"decoration1": {
-
+		"zindex": {
+			"zindex": -1
+		},
 		"size": {
 			"width": 100,
 			"height": 45
@@ -120,6 +122,9 @@
 		}
 	},
 	"decoration4": {
+		"zindex": {
+			"zindex": -1
+		},
 		"size": {
 			"width": 60,
 			"height": 25
@@ -132,7 +137,7 @@
 	},
 	"decoration5": {
 		"zindex": {
-			"zindex": -1
+			"zindex": -2
 		},
 		"size": {
 			"width": 52,
@@ -146,6 +151,50 @@
 			"destinationY": -6,
 			"destinationWidth": 52,
 			"destinationHeight": 26
+		}
+	},
+	"decoration6": {
+		"animated-decoration": true,
+		"zindex": {
+			"zindex": -1
+		},
+		"size": {
+			"width": 38,
+			"height": 80
+		},
+		"animation": {
+			"time": 0,
+			"frame": 0,
+			"loop": true,
+			"speed": 1,
+			"name": "decoration6"
+		},
+		"image": {
+			"name": "decoration6",
+			"sourceWidth": 38,
+			"sourceHeight": 80
+		}
+	},
+	"decoration7": {
+		"animated-decoration": true,
+		"zindex": {
+			"zindex": -1
+		},
+		"size": {
+			"width": 28,
+			"height": 60
+		},
+		"animation": {
+			"time": 0,
+			"frame": 0,
+			"loop": true,
+			"speed": 1,
+			"name": "decoration7"
+		},
+		"image": {
+			"name": "decoration7",
+			"sourceWidth": 28,
+			"sourceHeight": 60
 		}
 	},
 	"leaf-1": {

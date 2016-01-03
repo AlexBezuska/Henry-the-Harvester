@@ -18,7 +18,7 @@ module.exports = function(ecs, data) {
 
 		if(playerFacing === "down"){
 			if(timers.action.running){
-				playerAnimation.name = "player-swing-down";
+				playerAnimation.name = "player-action-down";
 			}else if(data.input.button("down")){
 				playerAnimation.name = "player-down";
 				playerAnimation.speed = 1;
@@ -29,7 +29,7 @@ module.exports = function(ecs, data) {
 		}
 		if(playerFacing === "up"){
 			if(timers.action.running){
-				playerAnimation.name = "player-swing-down";
+				playerAnimation.name = "player-action-down";
 			}else if(data.input.button("up")){
 				playerAnimation.name = "player-up";
 				playerAnimation.speed = 1;
@@ -40,7 +40,7 @@ module.exports = function(ecs, data) {
 		}
 		if(playerFacing === "right"){
 			if(timers.action.running){
-				playerAnimation.name = "player-swing-down";
+				playerAnimation.name = "player-action-down";
 			}else if(data.input.button("right")){
 				playerAnimation.name = "player-right";
 				playerAnimation.speed = 1;
@@ -51,7 +51,7 @@ module.exports = function(ecs, data) {
 		}
 		if(playerFacing === "left"){
 			if(timers.action.running){
-				playerAnimation.name = "player-swing-down";
+				playerAnimation.name = "player-action-down";
 			}else if(data.input.button("left")){
 				playerAnimation.name = "player-left";
 				playerAnimation.speed = 1;

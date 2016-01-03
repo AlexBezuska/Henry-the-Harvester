@@ -54,18 +54,18 @@
 			}
 		}
 	}],
-	"player-swing-down": [{
-		"filmstripFrames": 1,
+	"player-action-down": [{
+		"filmstripFrames": 2,
 		"time": 100,
 		"properties": {
 			"image": {
-				"name": "player-swing-down",
+				"name": "player-action-down",
 				"sourceX": 0,
 				"sourceY": 0,
-				"sourceWidth": 136,
-				"sourceHeight": 200,
-				"destinationWidth": 136,
-				"destinationHeight": 200
+				"sourceWidth": 376,
+				"sourceHeight": 251,
+				"destinationWidth": 188,
+				"destinationHeight": 251
 			}
 		}
 	}],
@@ -141,6 +141,36 @@
 				"sourceHeight": 31,
 				"destinationWidth": 20,
 				"destinationHeight": 31
+			}
+		}
+	}],
+	"decoration6": [{
+		"filmstripFrames": 16,
+		"time": 220,
+		"properties": {
+			"image": {
+				"name": "decoration6",
+				"sourceX": 0,
+				"sourceY": 0,
+				"sourceWidth": 608,
+				"sourceHeight": 80,
+				"destinationWidth": 38,
+				"destinationHeight": 80
+			}
+		}
+	}],
+	"decoration7": [{
+		"filmstripFrames": 16,
+		"time": 170,
+		"properties": {
+			"image": {
+				"name": "decoration7",
+				"sourceX": 0,
+				"sourceY": 0,
+				"sourceWidth": 448,
+				"sourceHeight": 60,
+				"destinationWidth": 28,
+				"destinationHeight": 60
 			}
 		}
 	}]

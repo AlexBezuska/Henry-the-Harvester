@@ -38,7 +38,10 @@ var decorations = [
 	"decoration1",
 	"decoration2",
 	"decoration3",
-	"decoration4"
+	"decoration4",
+	"decoration5",
+	"decoration6",
+	"decoration7"
 ];
 
 function spawnPrefabsInRect(entities, prefab, position, size) {
@@ -75,6 +78,8 @@ module.exports = function(data) { // eslint-disable-line no-unused-vars
 		var animation = data.animations[entityAnimation.name];
 		entityAnimation.frame = Math.floor(random.inRange(0, animation.length));
 	});
+
+	data.sounds.play("151830__gezortenplotz__swamp-01", true);
 
 
 };
