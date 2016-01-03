@@ -80,6 +80,11 @@
 		"scenes": [
 			"main"
 		]
+	},{
+		"name": "./systems/simulation/ease-leaves",
+		"scenes": [
+			"main"
+		]
 	}, {
 		"name": "./systems/simulation/collect",
 		"scenes": [
@@ -125,12 +130,6 @@
 			"main"
 		]
 	},
-	{
- 		"name": "splat-ecs/lib/systems/show-hitboxes",
- 		"scenes": [
- 			"main"
- 		]
- 	},
 
    {
 		"name": "splat-ecs/lib/systems/viewport-reset",

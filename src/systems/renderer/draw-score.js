@@ -20,6 +20,10 @@ module.exports = function(ecs, data) { // eslint-disable-line no-unused-vars
 		scorebarScorePosition.y = (scorebarBgPosition.y + scorebarBgSize.height) - scorebarScoreSize.height;
 		drawRectangle(data, context, scorebarScore);
 
+		if(score === total){
+			alert("YOU WIN!");
+		}
+
 	} ,    "player");
 };
 

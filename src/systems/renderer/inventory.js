@@ -10,7 +10,7 @@ module.exports = function(ecs, data) { // eslint-disable-line no-unused-vars
 
 		var inventory = data.entities.get(player, "inventory");
 		var slot = data.images.get("slot");
-		var podIcon = data.images.get("pod");
+		var podIcon = data.images.get("pod-icon");
 
 		var inventoryY = (data.canvas.height - slot.height) - 10;
 		var inventoryX = 80;

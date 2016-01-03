@@ -61,7 +61,7 @@
 	 		}
 		},
 		{
-			"showHitBox": true,
+			"showHitBox": false,
 			"zindex":{
 				"zindex": -1
 			},

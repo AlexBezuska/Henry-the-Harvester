@@ -1,5 +1,5 @@
 {
- "flower-1": "images/flower-1.png",
+ "flower": "images/flower-1.png",
  "pod": "images/pod.png",
  "logo": "images/logo.png",
  "player-idle-down": "images/player-idle-down.png",
@@ -12,6 +12,13 @@
  "bin-shadow": "images/bin-shadow.png",
  "decoration1": "images/decoration1.png",
  "decoration2": "images/decoration2.png",
+ "decoration3": "images/decoration3.png",
+ "decoration4": "images/decoration4.png",
+ "decoration5": "images/decoration5.png",
  "hud": "images/hud.png",
- "slot": "images/slot.png"
+ "slot": "images/slot.png",
+ "pod-icon": "images/pod-icon.png",
+ "leaf-1": "images/leaf-1.png",
+ "leaf-2": "images/leaf-2.png",
+ "leaf-3": "images/leaf-3.png"
 }

@@ -4,7 +4,7 @@
 		"time": 200,
 		"properties": {
 			"image": {
-				"name": "flower-1",
+				"name": "flower",
 				"sourceX": 0,
 				"sourceY": 0,
 				"sourceWidth": 252,
@@ -126,6 +126,21 @@
 				"sourceHeight": 143,
 				"destinationWidth": 268,
 				"destinationHeight": 143
+			}
+		}
+	}],
+	"decoration3": [{
+		"filmstripFrames": 15,
+		"time": 200,
+		"properties": {
+			"image": {
+				"name": "decoration3",
+				"sourceX": 0,
+				"sourceY": 0,
+				"sourceWidth": 300,
+				"sourceHeight": 31,
+				"destinationWidth": 20,
+				"destinationHeight": 31
 			}
 		}
 	}]

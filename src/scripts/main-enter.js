@@ -27,12 +27,17 @@ function spawnFlowers(entities, prefab, position, size) {
 	var tilesTall = Math.floor(size.height / entitySize.height);
 	var newX = random.inRange(0, tilesWide);
 	var newY = random.inRange(0, tilesTall);
-	entities.set(flower, "position", {"x": position.x + (newX * entitySize.width),  "y": position.y + (newY * entitySize.height) });
+	entities.set(flower, "position", {
+		"x": position.x + (newX * entitySize.width),
+		"y": position.y + (newY * entitySize.height)
+	});
 }
 
 var decorations = [
 	"decoration1",
-	"decoration2"
+	"decoration2",
+	"decoration3",
+	"decoration4"
 ];
 
 function spawnPrefabsInRect(entities, prefab, position, size) {
@@ -42,16 +47,19 @@ function spawnPrefabsInRect(entities, prefab, position, size) {
 	var tilesTall = Math.floor(size.height / entitySize.height);
 	var newX = random.inRange(0, tilesWide);
 	var newY = random.inRange(0, tilesTall);
-	entities.set(newPrefab, "position", {"x": position.x + (newX * entitySize.width),  "y": position.y + (newY * entitySize.height) });
+	entities.set(newPrefab, "position", {
+		"x": position.x + (newX * entitySize.width),
+		"y": position.y + (newY * entitySize.height)
+	});
 }
 
 module.exports = function(data) { // eslint-disable-line no-unused-vars
 
-	for(var i =0; i < 180; i++){
+	for(var i =0; i < 210; i++){
 		spawnPrefabsInRect(data.entities, random.from(decorations), { "x": -1000, "y": -1000 }, { "width": 4000, "height": 2500 });
 	}
 
-	for(var j =0; j < 20; j++){
+	for(var j =0; j < 10; j++){
 		spawnFlowers(data.entities, "flower", data.entities.get(2, "position"), data.entities.get(2, "size"));
 	}
 
@@ -60,6 +68,11 @@ module.exports = function(data) { // eslint-disable-line no-unused-vars
 	}, 0);
 
 	data.entities.set(2, "totalPods", totalPods);
+	data.entities.find("animated-decoration").forEach(function(id){
+		var entityAnimation = data.entities.get(id, "animation");
+		var animation = data.animations[entityAnimation.name];
+		entityAnimation.frame = Math.floor(random.inRange(0, animation.length));
+	});
 
 
 };
