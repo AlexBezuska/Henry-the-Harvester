@@ -1,63 +1,69 @@
 "use strict";
 
 module.exports = function(ecs, data) {
-	ecs.addEach(function(player, elapsed) { // eslint-disable-line no-unused-vars
-		var playerFacing = data.entities.get(player, "facing");
-		var playerAnimation = data.entities.get(player, "animation");
-		var timers = data.entities.get(player, "timers");
+	ecs.addEach(function(entity, elapsed) { // eslint-disable-line no-unused-vars
+		var facing = data.entities.get(entity, "facing");
+		var animation = data.entities.get(entity, "animation");
+		var timers = data.entities.get(entity, "timers");
 
-		// if( data.input.button("up")
-		// || data.input.button("right")
-		// || data.input.button("down")
-		// || data.input.button("left")
-		// || data.input.button("action") ){
-		// 	playerAnimation.speed = 1;
-		// }else{
-		// 	playerAnimation.speed = 0;
-		// }
+		if(timers.deposit.running){
+			if(facing === "down"){
+				animation.name = "player-deposit-down";
+			}
+			if(facing === "up"){
+				animation.name = "player-deposit-up";
+			}
+			if(facing === "right"){
+				animation.name = "player-deposit-right";
+			}
+			if(facing === "left"){
+				animation.name = "player-deposit-left";
+			}
+			return;
+		}
 
-		if(playerFacing === "down"){
+		if(facing === "down"){
 			if(timers.action.running){
-				playerAnimation.name = "player-action-down";
+				animation.name = "player-action-down";
 			}else if(data.input.button("down")){
-				playerAnimation.name = "player-down";
-				playerAnimation.speed = 1;
+				animation.name = "player-down";
+				animation.speed = 1;
 			}else{
-				playerAnimation.name = "player-idle-down";
-				playerAnimation.speed = 1;
+				animation.name = "player-idle-down";
+				animation.speed = 1;
 			}
 		}
-		if(playerFacing === "up"){
+		if(facing === "up"){
 			if(timers.action.running){
-				playerAnimation.name = "player-action-up";
+				animation.name = "player-action-up";
 			}else if(data.input.button("up")){
-				playerAnimation.name = "player-up";
-				playerAnimation.speed = 1;
+				animation.name = "player-up";
+				animation.speed = 1;
 			}else{
-				playerAnimation.name = "player-idle-down";
-				playerAnimation.speed = 1;
+				animation.name = "player-idle-down";
+				animation.speed = 1;
 			}
 		}
-		if(playerFacing === "right"){
+		if(facing === "right"){
 			if(timers.action.running){
-				playerAnimation.name = "player-action-right";
+				animation.name = "player-action-right";
 			}else if(data.input.button("right")){
-				playerAnimation.name = "player-right";
-				playerAnimation.speed = 1;
+				animation.name = "player-right";
+				animation.speed = 1;
 			}else{
-				playerAnimation.name = "player-idle-down";
-				playerAnimation.speed = 1;
+				animation.name = "player-idle-down";
+				animation.speed = 1;
 			}
 		}
-		if(playerFacing === "left"){
+		if(facing === "left"){
 			if(timers.action.running){
-				playerAnimation.name = "player-action-left";
+				animation.name = "player-action-left";
 			}else if(data.input.button("left")){
-				playerAnimation.name = "player-left";
-				playerAnimation.speed = 1;
+				animation.name = "player-left";
+				animation.speed = 1;
 			}else{
-				playerAnimation.name = "player-idle-down";
-				playerAnimation.speed = 1;
+				animation.name = "player-idle-down";
+				animation.speed = 1;
 			}
 		}
 	}, "player");
