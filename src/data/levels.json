@@ -1,0 +1,17 @@
+[
+	{
+		"cartFull": true,
+		"flowers": 10,
+		"maxTime": 45
+	},
+	{
+		"cartFull": false,
+		"flowers": 20,
+		"maxTime": 100
+	},
+	{
+		"cartFull": false,
+		"flowers": 30,
+		"maxTime": 150
+	}
+]

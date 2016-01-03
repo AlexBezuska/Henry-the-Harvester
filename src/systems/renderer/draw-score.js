@@ -12,8 +12,6 @@ module.exports = function(ecs, data) { // eslint-disable-line no-unused-vars
 		var scorebarScorePosition = data.entities.get(scorebarScore, "position");
 		var scorebarScoreSize = data.entities.get(scorebarScore, "size");
 
-
-		//scorebarBgPosition.x = (data.canvas.width / 2) - scorebarBgSize.width/2;
 		drawRectangle(data, context, scorebarBg);
 
 		scorebarScoreSize.height =  scorebarBgSize.height * (score / total);
@@ -21,7 +19,7 @@ module.exports = function(ecs, data) { // eslint-disable-line no-unused-vars
 		drawRectangle(data, context, scorebarScore);
 
 		if(score === total){
-			alert("YOU WIN!");
+			console.log("you won");
 		}
 
 	} ,    "player");

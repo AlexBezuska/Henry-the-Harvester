@@ -52,11 +52,17 @@
 				 "running": false,
 				 "time": 0,
 				 "max": 300
-			 },
+			 	},
 				"shake":{
 					"running": false,
 					"time": 0,
 					"max": 100
+				},
+				"deposit":{
+					"running": false,
+					"time": 0,
+					"max": 400,
+					"script": "./scripts/deposit"
 				}
 	 		}
 		},

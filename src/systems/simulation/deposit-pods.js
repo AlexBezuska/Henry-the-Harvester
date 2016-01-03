@@ -10,8 +10,8 @@ module.exports = function(ecs, data) { // eslint-disable-line no-unused-vars
 			var other = playerCollisions[i];
 			if (data.entities.get(other, "bin") && data.input.button("action")) {
 				//confirm("Deposit your pods?");
-				data.entities.set(player, "score", score + inventory.used);
-				inventory.used = 0;
+				var timers = data.entities.get(player, "timers");
+				timers.deposit.running = true;
 			}
 		}
 	}, "player");

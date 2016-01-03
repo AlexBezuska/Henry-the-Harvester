@@ -1,5 +1,6 @@
 "use strict";
 
+var levels = require("../data/levels");
 var prefabs = require("../data/prefabs");
 var random = require("../random");
 
@@ -54,12 +55,13 @@ function spawnPrefabsInRect(entities, prefab, position, size) {
 }
 
 module.exports = function(data) { // eslint-disable-line no-unused-vars
+	var currentLevel = levels[0];
 
 	for(var i =0; i < 210; i++){
 		spawnPrefabsInRect(data.entities, random.from(decorations), { "x": -1000, "y": -1000 }, { "width": 4000, "height": 2500 });
 	}
 
-	for(var j =0; j < 10; j++){
+	for(var j =0; j < currentLevel.flowers; j++){
 		spawnFlowers(data.entities, "flower", data.entities.get(2, "position"), data.entities.get(2, "size"));
 	}
 
