@@ -69,6 +69,54 @@
 			}
 		}
 	}],
+
+	"player-action-up": [{
+		"filmstripFrames": 2,
+		"time": 100,
+		"properties": {
+			"image": {
+				"name": "player-action-up",
+				"sourceX": 0,
+				"sourceY": 0,
+				"sourceWidth": 366,
+				"sourceHeight": 190,
+				"destinationWidth": 183,
+				"destinationHeight": 190
+			}
+		}
+	}],
+
+	"player-action-left": [{
+		"filmstripFrames": 2,
+		"time": 100,
+		"properties": {
+			"image": {
+				"name": "player-action-left",
+				"sourceX": 0,
+				"sourceY": 0,
+				"sourceWidth": 468,
+				"sourceHeight": 190,
+				"destinationWidth": 234,
+				"destinationHeight": 190
+			}
+		}
+	}],
+
+	"player-action-right": [{
+		"filmstripFrames": 2,
+		"time": 100,
+		"properties": {
+			"image": {
+				"name": "player-action-right",
+				"sourceX": 0,
+				"sourceY": 0,
+				"sourceWidth": 466,
+				"sourceHeight": 190,
+				"destinationWidth": 233,
+				"destinationHeight": 190
+			}
+		}
+	}],
 	"player-left": [{
 		"filmstripFrames": 4,
 		"time": 200,
