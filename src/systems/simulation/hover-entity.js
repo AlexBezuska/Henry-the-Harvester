@@ -1,37 +1,33 @@
 "use strict";
-var easing = require("easing-js");
 
 
-var harvesterLowPoint = 200;
-var harvesterHighPoint = 190;
-var time = 0;
-var duration = 2000;
-var goingDown = true;
-
-module.exports = function(ecs, data) {
-	ecs.addEach(function(entity, elapsed) { // eslint-disable-line no-unused-vars
+module.exports = function(ecs, data) { // eslint-disable-line no-unused-vars
+	ecs.addEach(function easePods(entity, elapsed) { // eslint-disable-line no-unused-vars
+		var timers = data.entities.get(entity, "timers");
 		var position = data.entities.get(entity, "position");
-		var harvesterY = 190;
 
-		if(time < duration){
-			time += elapsed;
-			if(goingDown){
-				harvesterY = easing.linear(time, harvesterLowPoint, -10, duration);
-			}else{
-				harvesterY = easing.linear(time, harvesterHighPoint, 10, duration);
-			}
+		if (timers.goingUp.running) {
+			position.y += 0.006 * elapsed;
 		}
-		if(harvesterY <= harvesterHighPoint){
-			goingDown = false;
-		}
-		if(harvesterY >= harvesterLowPoint){
-			goingDown = true;
+		if (timers.goingDown.running) {
+			position.y -= 0.006 * elapsed;
 		}
 
-		if(time >= duration){
-			time = 0;
+		//shadow
+		var binShadow = 3;
+		var image = data.entities.get(binShadow, "image");
+		var newWidth;
+		if (timers.goingUp.running) {
+			newWidth = image.destinationWidth += 0.004 * elapsed;
+			image.destinationWidth = newWidth;
+			image.destinationHeight = image.destinationHeight * (newWidth / image.destinationWidth);
+		}
+		if (timers.goingDown.running) {
+			newWidth = image.destinationWidth -= 0.004 * elapsed;
+			image.destinationWidth = newWidth;
+			image.destinationHeight = image.destinationHeight * (newWidth / image.destinationWidth);
 		}
 
-		position.y = harvesterY;
+
 	}, "hovering");
 };

@@ -6,12 +6,13 @@ module.exports = function(ecs, data) {
 		var speed = data.entities.get(entity, "speed");
 		var timers = data.entities.get(entity, "timers");
 
+		velocity.x = 0;
+		velocity.y = 0;
+
 		if(timers.deposit.running){
 			return;
 		}
 
-		velocity.x = 0;
-		velocity.y = 0;
 		if (data.input.button("left")) {
 			velocity.x = -speed;
 			data.entities.set(entity, "facing", "left");

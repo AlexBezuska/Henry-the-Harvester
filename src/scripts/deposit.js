@@ -16,6 +16,7 @@ module.exports = function(entity, data) { // eslint-disable-line no-unused-vars
 		"pop6"
 	];
 	data.sounds.play(random.from(popSounds));
+	timers.shake.running = true;
 	if(inventory.used > 0){
 		timers.deposit.running = true;
 	}

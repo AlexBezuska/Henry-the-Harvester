@@ -77,17 +77,17 @@
 			"name": "bin-shadow",
 
 			"position": {
-				"x": 200,
-				"y": 220
+				"x": 205,
+				"y": 215
 			},
 			"size": {
 				"width": 230,
-				"height": 60
+				"height": 55
 			},
 			"image": {
 				"name": "bin-shadow",
-				"destinationWidth": 282,
-				"destinationHeight": 60
+				"destinationWidth": 259,
+				"destinationHeight": 55
 			},
 			"collisions":[]
 		},
@@ -125,7 +125,21 @@
 				"destinationY": -94,
 				"destinationWidth": 282,
 				"destinationHeight": 150
-			}
+			},
+			"timers":{
+			   "goingUp":{
+				   "running": false,
+				   "time": 0,
+				   "max": 2000,
+				   "script": "./scripts/bin-hover-up"
+			   },
+			   "goingDown":{
+				   "running": true,
+				   "time": 0,
+				   "max": 2000,
+				   "script": "./scripts/bin-hover-down"
+			   }
+		   }
 		},
 		{
 			"id": 2,
@@ -172,7 +186,7 @@
 		},
 		{
 			"id": 12,
-			"color": "#DD0748",
+			"color": "#f0959e",
 			"scorebar-score": true,
 			"position": {
 				"x": 916,
